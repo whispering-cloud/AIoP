@@ -1,0 +1,38 @@
+{
+  "savedSubBlockNames": {
+    "0": {
+      "0": "astralimium_block",
+      "1": "refined_iron_block",
+      "2": "old_gold_block",
+      "3": "tungsten_steel_block",
+      "4": "berylium_ore",
+      "5": "tungsten_ore",
+      "6": "tungsten_carbon_block",
+      "7": "tungsten_carbon_ore",
+      "8": "tungsten_steel_ore",
+      "9": "wood_heart_block",
+      "10": "flowerium_block",
+      "11": "flowerium_ore",
+      "12": "aliasimium_block",
+      "13": "berylium_block",
+      "14": "astralimium_ore",
+      "15": "red_steel_block"
+    },
+    "1": {
+      "0": "red_steel_ore",
+      "1": "coral_steel_block",
+      "2": "coral_steel_ore",
+      "3": "refined_iron_ore",
+      "4": "tungsten_block",
+      "5": "chromium_block",
+      "6": "blue_steel_ore",
+      "7": "blue_steel_block",
+      "8": "old_gold_ore",
+      "9": "chromium_ore",
+      "10": "wood_heart_ore",
+      "11": "aliasimium_ore",
+      "12": "blood_solid_ore",
+      "13": "blood_solid_block"
+    }
+  }
+}

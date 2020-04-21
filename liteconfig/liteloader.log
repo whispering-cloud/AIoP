@@ -1,0 +1,642 @@
+[12:47:54] [main/INFO]: LiteLoader 1.12.2 starting up...
+[12:47:54] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[12:47:54] [main/INFO]: Java reports OS="windows 10"
+[12:47:54] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[12:47:54] [main/INFO]: Enumerating class path...
+[12:47:54] [main/INFO]: Class path separator=";"
+[12:47:54] [main/INFO]: Class path entries=(
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-20171128.144431-4\liteloader-1.12.2-20171128.144431-4.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+   classpathEntry=C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\AIoP-1.12.2b01.jar
+)
+[12:47:54] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[12:47:54] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods]
+[12:47:54] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\1.12.2]
+[12:47:54] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@7d070ef5]
+[12:47:55] [main/INFO]: Discovering valid mod files in folder C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ActuallyAdditions-1.12.2-r151-2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ActuallyAdditions-1.12.2-r151-2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AdvancedRocketry-1.12.2-1.7.0-202-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AdvancedRocketry-1.12.2-1.7.0-202-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ae2stuff-0.7.0.4-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ae2stuff-0.7.0.4-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AE2WTLib-1.12.2-1.0.34.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AE2WTLib-1.12.2-1.0.34.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AkashicTome-1.2-12.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AkashicTome-1.2-12.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AppleCore-mc1.12.2-3.2.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AppleCore-mc1.12.2-3.2.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AppleSkin-mc1.12-1.0.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AppleSkin-mc1.12-1.0.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'appliedenergistics2-rv6-stable-7.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\appliedenergistics2-rv6-stable-7.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'architecturecraft-1.12-3.98.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\architecturecraft-1.12-3.98.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'astralsorcery-1.12.2-1.10.20.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\astralsorcery-1.12.2-1.10.20.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AttributeFix-1.12.2-1.0.7.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AttributeFix-1.12.2-1.0.7.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AutoRegLib-1.3-32.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AutoRegLib-1.3-32.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Avaritia-1.12.2-3.3.0.33-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Avaritia-1.12.2-3.3.0.33-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'AvaritiaTweaks-1.12.2-1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\AvaritiaTweaks-1.12.2-1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'backpack-3.0.2-1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\backpack-3.0.2-1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'badwithernocookiereloaded-1.12.2-3.3.16.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\badwithernocookiereloaded-1.12.2-3.3.16.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'base-1.12.2-3.12.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\base-1.12.2-3.12.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Baubles-1.12-1.5.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Baubles-1.12-1.5.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'bdlib-1.14.3.12-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\bdlib-1.14.3.12-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BetterAdvancements-1.12.2-0.1.0.77.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BetterAdvancements-1.12.2-0.1.0.77.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BetterFps-1.4.8.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BetterFps-1.4.8.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BetterQuesting-3.5.319.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BetterQuesting-3.5.319.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BiblioCraft[v2.4.5][MC1.12.2].jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BiblioCraft[v2.4.5][MC1.12.2].jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BloodMagic-1.12.2-2.4.3-105.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BloodMagic-1.12.2-2.4.3-105.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'bonsaitrees-1.1.2-b144.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\bonsaitrees-1.1.2-b144.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Bookshelf-1.12.2-2.3.577.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Bookshelf-1.12.2-2.3.577.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Botania r1.10-363.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Botania r1.10-363.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'BrandonsCore-1.12.2-2.4.17.208-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\BrandonsCore-1.12.2-2.4.17.208-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CarryOn MC1.12.2 v1.12.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CarryOn MC1.12.2 v1.12.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'cc-tweaked-1.12.2-1.86.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\cc-tweaked-1.12.2-1.86.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Chameleon-1.12-4.1.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Chameleon-1.12-4.1.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Chisel-MC1.12.2-1.0.1.44.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Chisel-MC1.12.2-1.0.1.44.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'chiselsandbits-14.33.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\chiselsandbits-14.33.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Chunk Pregenerator V1.12-2.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Chunk Pregenerator V1.12-2.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ClayBucket-1.12-1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ClayBucket-1.12-1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Clumps-3.1.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Clumps-3.1.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.2.3.358-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.6.3.27-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CoFHCore-1.12.2-4.6.3.27-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CoFHWorld-1.12.2-1.3.1.7-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CoFHWorld-1.12.2-1.3.1.7-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CommonCapabilities-1.12.2-2.4.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CommonCapabilities-1.12.2-2.4.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'compactmachines3-1.12.2-3.0.18-b278.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\compactmachines3-1.12.2-3.0.18-b278.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CompactSolars-1.12.2-5.0.18.341-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CompactSolars-1.12.2-5.0.18.341-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ContentTweaker-1.12.2-4.9.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ContentTweaker-1.12.2-4.9.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Controlling-3.0.7.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Controlling-3.0.7.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CookingForBlockheads_1.12.2-6.4.71.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CookingForBlockheads_1.12.2-6.4.71.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CraftTweaker2-1.12-4.1.19.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CraftTweaker2-1.12-4.1.19.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CTM-MC1.12.2-1.0.1.30.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CTM-MC1.12.2-1.0.1.30.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Cucumber-1.12.2-1.1.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Cucumber-1.12.2-1.1.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CustomBackgrounds-MC1.12-1.1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CustomBackgrounds-MC1.12-1.1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CustomMainMenu-MC1.12.2-2.0.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CustomMainMenu-MC1.12.2-2.0.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Cyclic-1.12.2-1.19.19.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Cyclic-1.12.2-1.19.19.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'CyclopsCore-1.12.2-1.6.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\CyclopsCore-1.12.2-1.6.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'DankNull-1.12.2-1.7.89.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\DankNull-1.12.2-1.7.89.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'DarkUtils-1.12.2-1.8.230.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\DarkUtils-1.12.2-1.8.230.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'deepmoblearning-1.12.2-2.5.2-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\deepmoblearning-1.12.2-2.5.2-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'deepmoblearningbm-1.12.2-1.0.1-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\deepmoblearningbm-1.12.2-1.0.1-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'DefaultOptions_1.12.2-9.2.8.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\DefaultOptions_1.12.2-9.2.8.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Ding-1.12.2-1.0.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Ding-1.12.2-1.0.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Draconic-Evolution-1.12.2-2.3.24.349-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Draconic-Evolution-1.12.2-2.3.24.349-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EmberRootZoo-1.12.2-1.3.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EmberRootZoo-1.12.2-1.3.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EnderCore-1.12.2-0.5.73.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EnderCore-1.12.2-0.5.73.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EnderIO-1.12.2-5.1.52.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EnderIO-1.12.2-5.1.52.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EnderStorage-1.12.2-2.4.6.137-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EnderStorage-1.12.2-2.4.6.137-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'environmentalmaterials-1.12.2-1.0.20.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\environmentalmaterials-1.12.2-1.0.20.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'environmentaltech-1.12.2-2.0.20.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\environmentaltech-1.12.2-2.0.20.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EquivalentAdditions-1.12.2-7r.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EquivalentAdditions-1.12.2-7r.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'EquivalentEnergistics-1.12.2-PE_1.3.1B-AE2_RV6-0.8.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\EquivalentEnergistics-1.12.2-PE_1.3.1B-AE2_RV6-0.8.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Exchangers-1.12.2-2.8.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Exchangers-1.12.2-2.8.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ExCompressum_1.12.2-3.0.31.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ExCompressum_1.12.2-3.0.31.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'exnihilocreatio-1.12.2-0.4.7.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\exnihilocreatio-1.12.2-0.4.7.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ExtendedCrafting-1.12.2-1.5.6.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ExtendedCrafting-1.12.2-1.5.6.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ExtraBotany-r1.1-55-fixed.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ExtraBotany-r1.1-55-fixed.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ExtraCells-1.12.2-2.6.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ExtraCells-1.12.2-2.6.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ExtraFoamForLiteLoader-1.0.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ExtraFoamForLiteLoader-1.0.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'extrautils2-1.12-1.9.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\extrautils2-1.12-1.9.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FastFurnace-1.12.2-1.3.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FastFurnace-1.12.2-1.3.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FastWorkbench-1.12.2-1.7.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FastWorkbench-1.12.2-1.7.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'fencejumper-1.12-1.0.5.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\fencejumper-1.12-1.0.5.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'foamfix-0.10.10-1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\foamfix-0.10.10-1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'forestry_1.12.2-5.8.2.409.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\forestry_1.12.2-5.8.2.409.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Forgelin-1.8.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Forgelin-1.8.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ForgivingVoid_1.12.2-1.0.23.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ForgivingVoid_1.12.2-1.0.23.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FpsReducer-mc1.12.2-1.12.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FpsReducer-mc1.12.2-1.12.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FTBBanners-1.1.0.12.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FTBBanners-1.1.0.12.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FTBLib-5.4.4.5.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FTBLib-5.4.4.5.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FTBMoney-1.1.0.41.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FTBMoney-1.1.0.41.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FTBQuests-1.7.2.220.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FTBQuests-1.7.2.220.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FTBUtilities-5.4.0.124.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FTBUtilities-5.4.0.124.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'FullscreenWindowed-1.12-1.6.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\FullscreenWindowed-1.12-1.6.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'GasConduits-1.12.2-1.2.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\GasConduits-1.12.2-1.2.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'gendustry-1.6.5.8-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\gendustry-1.6.5.8-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'gendustryjei-1.0.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\gendustryjei-1.0.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Geolosys-1.12.2-2.1.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Geolosys-1.12.2-2.1.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Guide-API-1.12-2.1.8-63.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Guide-API-1.12-2.1.8-63.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'HammerCore-1.12.2-2.0.5.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\HammerCore-1.12.2-2.0.5.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'HungerPersistence-mc1.12-1.0.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\HungerPersistence-mc1.12-1.0.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Hwyla-1.8.26-B41_1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Hwyla-1.8.26-B41_1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'iChunUtil-1.12.2-7.2.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\iChunUtil-1.12.2-7.2.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ImmersiveEngineering-0.12-92.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ImmersiveEngineering-0.12-92.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'immersivepetroleum-1.12.2-1.1.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\immersivepetroleum-1.12.2-1.1.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'immersivetech-1.12-1.3.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\immersivetech-1.12-1.3.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'incontrol-1.12-3.9.16.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\incontrol-1.12-3.9.16.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'industrialcraft-2-2.8.164-ex112.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\industrialcraft-2-2.8.164-ex112.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'industrialforegoing-1.12.2-1.12.13-237.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\industrialforegoing-1.12.2-1.12.13-237.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'instantunify-1.12.2-1.1.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\instantunify-1.12.2-1.1.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'IntegratedDynamics-1.12.2-1.1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\IntegratedDynamics-1.12.2-1.1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'IntegratedTunnels-1.12.2-1.6.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\IntegratedTunnels-1.12.2-1.6.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'IntegrationForegoing-1.12.2-1.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\IntegrationForegoing-1.12.2-1.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.64+dev.150.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\InventoryTweaks-1.64+dev.150.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'inworldcrafting-1.12.2-1.2.0-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\inworldcrafting-1.12.2-1.2.0-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ironchest-1.12.2-7.0.72.847.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ironchest-1.12.2-7.0.72.847.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ItemFilters-1.0.3.11.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ItemFilters-1.0.3.11.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'JAOPCA-1.12.2-2.2.8.103.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\JAOPCA-1.12.2-2.2.8.103.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'jeibees-0.9.0.5-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\jeibees-0.9.0.5-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'jeivillagers-1.12-1.0.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\jeivillagers-1.12-1.0.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.15.0.293.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\jei_1.12.2-4.15.0.293.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'journeymap-1.12.2-5.5.5.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\journeymap-1.12.2-5.5.5.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'just-enough-harvestcraft-1.12.2-1.7.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\just-enough-harvestcraft-1.12.2-1.7.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'JustEnoughCharacters-1.12.0-3.3.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\JustEnoughCharacters-1.12.0-3.3.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'JustEnoughEnergistics-1.12.2-1.0.8.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\JustEnoughEnergistics-1.12.2-1.0.8.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'JustEnoughPetroleum-0.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\JustEnoughPetroleum-0.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'JustEnoughResources-1.12.2-0.9.2.60.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\JustEnoughResources-1.12.2-0.9.2.60.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'justthetips-1.12-1.0.1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\justthetips-1.12-1.0.1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'KleeSlabs_1.12.2-5.4.11.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\KleeSlabs_1.12.2-5.4.11.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'lazy-ae2-1.12.2-1.1.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\lazy-ae2-1.12.2-1.1.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'libnine-1.12.2-1.1.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\libnine-1.12.2-1.1.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'LibVulpes-1.12.2-0.4.2-69-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\LibVulpes-1.12.2-0.4.2-69-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'llibrary-1.7.19-1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\llibrary-1.7.19-1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'lootcapacitortooltips-1.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\lootcapacitortooltips-1.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'LootTableTweaker-1.12.2-1.1.17.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\LootTableTweaker-1.12.2-1.1.17.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'LootTweaker-0.1.4+MC1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\LootTweaker-0.1.4+MC1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'LunatriusCore-1.12.2-1.2.0.42-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\LunatriusCore-1.12.2-1.2.0.42-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Mantle-1.12-1.3.3.55.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Mantle-1.12-1.3.3.55.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'mcjtylib-1.12-3.5.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\mcjtylib-1.12-3.5.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MCMultiPart-2.5.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MCMultiPart-2.5.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Mekanism-1.12.2-9.8.3.390.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Mekanism-1.12.2-9.8.3.390.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'minetogether-1.10.2-2.1.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\minetogether-1.10.2-2.1.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'modtweaker-4.0.17.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\modtweaker-4.0.17.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Modular Diversity-1.5.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Modular Diversity-1.5.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'modularmachinery-1.12.2-1.10.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\modularmachinery-1.12.2-1.10.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Morph-o-Tool-1.2-21.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Morph-o-Tool-1.2-21.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MouseTweaks-2.10-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Considering valid mod file: C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MTLib-3.0.6.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MTLib-3.0.6.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'mystagradcompat-1.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\mystagradcompat-1.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MysticalAgradditions-1.12.2-1.3.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MysticalAgradditions-1.12.2-1.3.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'MysticalAgriculture-1.12.2-1.7.5.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MysticalAgriculture-1.12.2-1.7.5.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'mysticallib-1.12.2-1.4.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\mysticallib-1.12.2-1.4.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NaturesCompass-1.12.2-1.8.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NaturesCompass-1.12.2-1.8.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Neat 1.4-17.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Neat 1.4-17.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NoMoreRecipeConflict-0.13(1.12.2).jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NoMoreRecipeConflict-0.13(1.12.2).jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NoNVFlash-1.12.2-1.2.0.3-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NoNVFlash-1.12.2-1.2.0.3-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'noRecipeBook_v1.2.2formc1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\noRecipeBook_v1.2.2formc1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NotEnoughIDs-1.5.4.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NotEnoughIDs-1.5.4.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'NuclearCraft-2.18o-1.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\NuclearCraft-2.18o-1.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Nutrition-1.12.2-4.4.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Nutrition-1.12.2-4.4.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'OldJavaWarning-1.12.2-1.0.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\OldJavaWarning-1.12.2-1.0.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'OpenBlocks-1.12.2-1.8.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\OpenBlocks-1.12.2-1.8.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'OpenModsLib-1.12.2-0.12.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\OpenModsLib-1.12.2-0.12.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'OreExcavation-1.4.143.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\OreExcavation-1.4.143.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'overloadedarmorbar-1.0.4g.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\overloadedarmorbar-1.0.4g.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'p455w0rdslib-1.12.2-2.3.161.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\p455w0rdslib-1.12.2-2.3.161.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'PackagedAuto-1.12.2-1.0.2.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\PackagedAuto-1.12.2-1.0.2.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'PackagedExCrafting-1.12.2-1.0.1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\PackagedExCrafting-1.12.2-1.0.1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'packmode-1.12.2-1.2.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\packmode-1.12.2-1.2.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Pam's HarvestCraft 1.12.2zf.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Pam's HarvestCraft 1.12.2zf.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Patchouli-1.0-20.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Patchouli-1.0-20.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Placebo-1.12.2-1.6.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Placebo-1.12.2-1.6.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'PlaneFix-1.12.2-1.0.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\PlaneFix-1.12.2-1.0.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'pressure-1.3.1.6-mc1.12.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\pressure-1.3.1.6-mc1.12.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'probe-0.1.23.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\probe-0.1.23.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ProjectE-1.12.2-PE1.4.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ProjectE-1.12.2-PE1.4.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ProjectEIntegration-1.12.2-2.3.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ProjectEIntegration-1.12.2-2.3.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ProjectEX-1.2.0.39.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ProjectEX-1.2.0.39.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ProjectIntelligence-1.12.2-1.0.9.28-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ProjectIntelligence-1.12.2-1.0.9.28-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Psi-r1.1-77.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Psi-r1.1-77.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Quark-r1.6-177.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Quark-r1.6-177.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'QuickLeafDecay-MC1.12.1-1.2.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\QuickLeafDecay-MC1.12.1-1.2.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'randompatches-1.12.2-1.20.1.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\randompatches-1.12.2-1.20.1.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'RandomThings-MC1.12.2-4.2.7.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\RandomThings-MC1.12.2-4.2.7.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'reauth-3.6.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\reauth-3.6.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'RebornCore-1.12.2-3.16.4.478-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\RebornCore-1.12.2-3.16.4.478-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'RedstoneArsenal-1.12.2-2.6.3.18-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\RedstoneArsenal-1.12.2-2.6.3.18-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.1.0.6-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\RedstoneFlux-1.12-2.1.0.6-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ResourceLoader-MC1.12.1-1.5.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ResourceLoader-MC1.12.1-1.5.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'rftools-1.12-7.72.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\rftools-1.12-7.72.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'rftoolsctrl-1.12-2.0.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\rftoolsctrl-1.12-2.0.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'rftoolsdim-1.12-5.71.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\rftoolsdim-1.12-5.71.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Scannable-MC1.12.2-1.6.3.24.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Scannable-MC1.12.2-1.6.3.24.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'simpletrophies-1.2.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\simpletrophies-1.2.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'SimplyJetpacks2-1.12.2-2.2.11.64.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\SimplyJetpacks2-1.12.2-2.2.11.64.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'SmoothFont-mc1.12.2-2.1.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\SmoothFont-mc1.12.2-2.1.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Snad-1.12.1-1.7.09.16a.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Snad-1.12.1-1.7.09.16a.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'sonarcore-1.12.2-5.0.19-20.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\sonarcore-1.12.2-5.0.19-20.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'StorageDrawers-1.12.2-5.4.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\StorageDrawers-1.12.2-5.4.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'supersoundmuffler-1.12.2-1.0.2.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\supersoundmuffler-1.12.2-1.0.2.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Surge-1.12.2-2.0.77.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Surge-1.12.2-2.0.77.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TConstruct-1.12.2-2.13.0.171.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TConstruct-1.12.2-2.13.0.171.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Tesla-1.12.2-1.0.63.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Tesla-1.12.2-1.0.63.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'tesla-core-lib-1.12.2-1.0.15.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\tesla-core-lib-1.12.2-1.0.15.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Thaumcraft-1.12.2-6.1.BETA26.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Thaumcraft-1.12.2-6.1.BETA26.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThaumicInventoryScanning_1.12.2-2.0.10.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThaumicInventoryScanning_1.12.2-2.0.10.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThaumicJEI-1.12.2-1.6.0-27.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThaumicJEI-1.12.2-1.6.0-27.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'thaumictinkerer-1.12.2-5.0-353c71c.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\thaumictinkerer-1.12.2-5.0-353c71c.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThermalCultivation-1.12.2-0.3.3.12-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThermalCultivation-1.12.2-0.3.3.12-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThermalDynamics-1.12.2-2.5.5.21-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThermalDynamics-1.12.2-2.5.5.21-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThermalExpansion-1.12.2-5.5.4.43-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThermalExpansion-1.12.2-5.5.4.43-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'ThermalFoundation-1.12.2-2.6.3.27-universal.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\ThermalFoundation-1.12.2-2.6.3.27-universal.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TinkersComplement-1.12.2-0.4.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TinkersComplement-1.12.2-0.4.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TinkersExtras-1.12.2-1.0.9.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TinkersExtras-1.12.2-1.0.9.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TinkerToolLeveling-1.12.2-1.1.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TinkerToolLeveling-1.12.2-1.1.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'tinker_io-1.12.2-rw2.7.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\tinker_io-1.12.2-rw2.7.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TipTheScales-1.12.2-1.0.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TipTheScales-1.12.2-1.0.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Toast Control-1.12.2-1.8.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Toast Control-1.12.2-1.8.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'TombManyGraves-1.12-4.2.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\TombManyGraves-1.12-4.2.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'torchmaster_1.12.2-1.8.0.79.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\torchmaster_1.12.2-1.8.0.79.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'toughnessbar-2.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\toughnessbar-2.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'UniDict-1.12.2-2.9.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\UniDict-1.12.2-2.9.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'UnlimitedChiselWorks-0.3.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\UnlimitedChiselWorks-0.3.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'unloader-1.2.0.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\unloader-1.2.0.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'valkyrielib-1.12.2-2.0.20.1.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\valkyrielib-1.12.2-2.0.20.1.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'VanillaFix-1.0.10-99.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\VanillaFix-1.0.10-99.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'WailaHarvestability-mc1.12-1.1.12.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\WailaHarvestability-mc1.12-1.1.12.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'WanionLib-1.12.2-2.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\WanionLib-1.12.2-2.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'Wawla-1.12.2-2.5.273.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\Wawla-1.12.2-2.5.273.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'WirelessCraftingTerminal-1.12.2-3.12.97.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\WirelessCraftingTerminal-1.12.2-3.12.97.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'WrapUp-1.12-1.1.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\WrapUp-1.12-1.1.3.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'xnet-1.12-1.8.2.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\xnet-1.12-1.8.2.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'YNot-0.2.4.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\YNot-0.2.4.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'YUNoMakeGoodMap-1.12-6.3.0.29.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\YUNoMakeGoodMap-1.12-6.3.0.29.jar
+[12:47:55] [main/INFO]: Inspecting jar metadata in 'zerocore-1.12-0.1.2.3.jar'
+[12:47:55] [main/INFO]: Ignoring C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\zerocore-1.12-0.1.2.3.jar
+[12:47:55] [main/INFO]: Discovering valid mod files in folder C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\1.12.2
+[12:47:55] [main/INFO]: Discovering tweaks on class path...
+[12:47:55] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[12:47:55] [main/INFO]: Registering discovered mod files in folder C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods
+[12:47:55] [main/INFO]: Adding newest valid mod file 'C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar' at revision 0.0000
+[12:47:55] [main/INFO]: Registering discovered mod files in folder C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\1.12.2
+[12:47:55] [main/INFO]: Initialising LiteLoader Mixins
+[12:47:55] [main/INFO]: LiteLoader PREINIT complete
+[12:48:07] [main/INFO]: FML detected, switching to searge mappings
+[12:48:13] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[12:48:13] [Client thread/INFO]: Successfully generated event handler proxy class with 0 handlers(s) and 0 total invocations
+[12:51:49] [Client thread/INFO]: JInput Component Registry is initialising...
+[12:51:49] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Unknown controller USB GAMING MOUSE  on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Unknown controller USB GAMING MOUSE  on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Unknown controller Lenovo Black Silk USB Keyboard on Unknown...
+[12:51:49] [Client thread/INFO]: Inspecting Unknown controller Lenovo Black Silk USB Keyboard on Unknown...
+[12:51:49] [Client thread/INFO]: JInput Component Registry initialised, found 7 controller(s) 298 component(s)
+[12:51:49] [Client thread/INFO]: LiteLoader begin INIT...
+[12:51:49] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[12:51:49] [Client thread/INFO]: Injecting external mods into class path...
+[12:51:49] [Client thread/INFO]: C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar already exists on the classpath, skipping injection
+[12:51:49] [Client thread/INFO]: Injecting external mods into class path...
+[12:51:49] [Client thread/INFO]: Discovering mods on class path...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-20171128.144431-4\liteloader-1.12.2-20171128.144431-4.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\AIoP-1.12.2b01.jar...
+[12:51:49] [Client thread/INFO]: Discovering mods in valid mod files...
+[12:51:49] [Client thread/INFO]: Searching C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar...
+[12:51:49] [Client thread/INFO]: Found 1 potential matches
+[12:51:49] [Client thread/INFO]: Discovering mods in valid mod files...
+[12:51:49] [Client thread/INFO]: Mod class discovery completed
+[12:51:49] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[12:51:49] [Client thread/INFO]: Inhibiting sound handler reload
+[12:51:49] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[12:51:49] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[12:51:49] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[12:51:49] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[12:51:49] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[12:51:50] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[12:51:50] [Client thread/INFO]: Loading mod from yalter.mousetweaks.liteloader.LiteModMouseTweaks
+[12:51:50] [Client thread/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[12:51:50] [Client thread/INFO]: Successfully added mod Mouse Tweaks version 2.10
+[12:51:50] [Client thread/INFO]: Adding "C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar" to active resource pack set
+[12:51:50] [Client thread/INFO]: Setting up "MouseTweaks-2.10-mc1.12.2.jar" as mod resource pack with identifier "Mouse Tweaks"
+[12:51:50] [Client thread/INFO]: Successfully added "C:\wuyang\modPacks\all ver\.minecraft\versions\AIoP-1.12.2b01\mods\MouseTweaks-2.10-mc1.12.2.jar" to active resource pack set
+[12:51:50] [Client thread/INFO]: Initialising mod Mouse Tweaks version 2.10
+[12:51:50] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[12:56:15] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[12:56:15] [Client thread/INFO]: Sound handler reload inhibit removed
+[12:56:15] [Client thread/INFO]: Reloading sound handler
+[12:56:18] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[12:56:18] [Client thread/INFO]: Baking listener list for RenderListener with 1 listeners
+[12:56:18] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[12:56:18] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[12:56:18] [Client thread/INFO]: Baking listener list for Tickable with 0 listeners
+[12:56:18] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[13:24:14] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
