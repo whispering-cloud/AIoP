@@ -274,3 +274,18 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk4> * 20
 [AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk5> * 20
 [AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk6> * 20
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:water_freezer>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:water_spreader>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:wand_missile>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:water_candle>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:wand_hypno>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:tool_torch_launcher>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:tool_push>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:tool_prospector>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:storage_bag>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:soulstone>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:block_anvil>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:block_anvil_magma>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:heart_food>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:block_miner_smart>
+[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:tool_elevate>

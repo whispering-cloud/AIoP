@@ -2,14 +2,14 @@ version:1343
 invertYMouse:false
 mouseSensitivity:1.0
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
-renderDistance:4
+renderDistance:7
 guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -98,7 +98,6 @@ key_pe.key.charge:47
 key_pe.key.extra_function:46
 key_pe.key.fire_projectile:19
 key_pe.key.mode:34
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -124,6 +123,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_key.personalBackpack:48
