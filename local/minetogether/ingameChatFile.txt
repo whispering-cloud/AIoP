@@ -1,3 +1,0 @@
-#
-#Sun Apr 26 18:17:46 CST 2020
-ingameChat=false
