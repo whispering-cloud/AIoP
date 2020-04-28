@@ -10,7 +10,9 @@ import mods.botania.PureDaisy;
     print("Initializing botania.zs");
     //mana quartz
     mods.botania.ManaInfusion.removeRecipe(<botania:quartz:1>);
+    //quartz mana
     mods.botania.ManaInfusion.addInfusion(<botania:quartztypemana>, <ore:blockMarble>, 100);
+    //mana dust
     mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>*4, <astralsorcery:itemusabledust:1>, 100);
     <botania:quartztypemana>.addTooltip("Can be crafted using marble");
     <botania:manaresource:23>.addTooltip("can be crafted in many ways");

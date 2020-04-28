@@ -8,6 +8,7 @@ import mods.modularmachinery.RecipePrimer;
 import mods.astralsorcery.Altar;
     print("Initializing utilsreciper.zs");
     //recipe builder func
+    /*
     function recipeBuilds(recipername as string,machineName as string,processingTickTime as int,energyTick as int,outputEnergy as int,finput as ILiquidStack[],foutput as ILiquidStack[],iinput as IItemStack[],ioutput as IItemStack[]){
         val rp = mods.modularmachinery.RecipeBuilder.newBuilder(recipername, machineName, processingTickTime);
         if (energyTick!=0){
@@ -37,13 +38,32 @@ import mods.astralsorcery.Altar;
             }
         }
         rp.build();
-    }
+    }*/
     
     //auto altar
+    //recipeBuilds(recname,"auto_altarmk2",200,0,0,[<fluid:astralfmk2>*3200],[],inputer,[outputer]);
     function altarr(recname as string,levelat as int,inputer as IItemStack[],outputer as IItemStack){
-        if (2>=levelat) recipeBuilds(recname,"auto_altarmk2",200,0,0,[<fluid:astralfmk2>*3200],[],inputer,[outputer]);
-        if (3>=levelat) recipeBuilds(recname,"auto_altarmk3",100,0,0,[<fluid:astralfmk4>*800],[],inputer,[outputer]);
-        if (4>=levelat) recipeBuilds(recname,"auto_altarmk4",50,0,0,[<fluid:astralfmk6>*200],[],inputer,[outputer]);
+        if (2>=levelat) {
+            var rp2 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk2", "auto_altarmk2",200).addFluidInput(<fluid:astralfmk2>*320);
+            for i in inputer {
+                rp2.addItemInput(i);
+            }
+            rp2.addItemOutput(outputer);
+        }
+        if (3>=levelat) {
+            var rp3 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk2", "auto_altarmk3",100).addFluidInput(<fluid:astralfmk4>*80);
+            for i in inputer {
+                rp3.addItemInput(i);
+            }
+            rp3.addItemOutput(outputer);
+        }
+        if (4>=levelat) {
+            var rp4 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk2", "auto_altarmk4",50).addFluidInput(<fluid:astralfmk2>*20);
+            for i in inputer {
+                rp4.addItemInput(i);
+            }
+            rp4.addItemOutput(outputer);
+        }
     }
     //all of altar
     function allaltar(recname as string,levelat as int,inputer as IItemStack[],outputer as IItemStack,traitname as string){
