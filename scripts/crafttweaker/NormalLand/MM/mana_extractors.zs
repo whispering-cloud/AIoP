@@ -12,7 +12,7 @@ import mods.modularmachinery.RecipePrimer;
     //terra steel 1
     mods.modularmachinery.RecipeBuilder.newBuilder("terrapassive1", "passive_aura_extractor", 6000).addItemOutput(<botania:manaresource:4>).addItemInput(<botania:manaresource>).addItemInput(<astralsorcery:itemusabledust:1>*8).addBiomeRequirement(["MagicForest"]);
     //raw mana generator
-    mods.modularmachinery.RecipeBuilder.newBuilder("manapassive1", "passive_aura_extractor", 10).addManaOutput(100).addItemInput(<astralsorcery:itemusabledust:1>).setChance(0.05).addItemOutput(<astralsorcery:itemusabledust>).setChance(0.05);
+    mods.modularmachinery.RecipeBuilder.newBuilder("manapassive1", "passive_aura_extractor", 10).addManaOutput(100).addItemInput(<astralsorcery:itemusabledust:1>).setChance(0.05).addItemInput(<botania:quartz:1>).setChance(0).addItemOutput(<astralsorcery:itemusabledust>).setChance(0.05);
 
 
 
