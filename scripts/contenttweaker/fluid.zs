@@ -48,7 +48,21 @@
         "bisphenola",//双酚A
         "carbonate",//碳酸酯
         "cahpo4",//磷酸氢钙
-        ""
+        "nh4no3",//硝酸铵
+        "hcn",//氢氰酸
+        "naoh",//氢氧化钠
+        "acetone_cyanohydrin",//product for PMMA
+        "ch3oh",//甲醇
+        "pmm",//PMM for PMMA's single
+        //metallurgy
+        "al2o3",//Al2O3 liquidfy
+        "ccl4",//四氯化碳
+        "nh4oh",//氨水
+        "na2co3",//碳酸钠
+        "h2wo4",//钨酸
+        "cacl2",//氯化钙
+        "sboh2"//氢氧化锑
+
     ] as string[];
     //流体颜色列表
     val fluidColor = [
@@ -89,7 +103,20 @@
         "EE6363",//双酚A
         "006400",//碳酸酯
         "FFF68F",//磷酸氢钙
-        ""
+        "B0E2FF",
+        "00FFFF",
+        "B0E2FF",
+        "B0E0E6",
+        "4169E1",
+        "2F4F4F",
+        //metallurgy
+        "00F5FF",
+        "4F4F4E",
+        "97FFFF",
+        "E6E6FA",
+        "FAEBD7",
+        "FFDEAD",
+        "5F9EA0"
     ] as string[];
 
 
