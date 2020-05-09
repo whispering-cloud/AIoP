@@ -35,10 +35,4 @@
 		blockData.addDataValue("resistance", "30");
 		blockData.addDataValue("harvestTool", "pickaxe");
 		blockData.addDataValue("harvestLevel", "2");
-
-		var oreData = metal.registerPart("ore").getData();
-		oreData.addDataValue("hardness", "5");
-		oreData.addDataValue("resistance", "30");
-		oreData.addDataValue("harvestTool", "pickaxe");
-		oreData.addDataValue("harvestLevel", "3");
 	}

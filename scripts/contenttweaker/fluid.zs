@@ -116,7 +116,7 @@
         "E6E6FA",
         "FAEBD7",
         "FFDEAD",
-        "5F9EA0"
+        "5F9EA0"//氢氧化锑
     ] as string[];
 
 
