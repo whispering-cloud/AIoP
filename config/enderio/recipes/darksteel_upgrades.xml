@@ -92,706 +92,254 @@ XML editor will display that as tooltips when editing this file.
     <dependency upgrade="enderio:direct"/>
     <tanking type="FILL" logic="DSU">
       <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:direct"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:direct"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Elytra">
-    <dependency upgrade="enderio:elytra"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:elytra"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:elytra"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Elytra">
-    <dependency upgrade="enderio:elytra"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:elytra"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:elytra"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Empowered">
-    <dependency upgrade="enderio:energyupgrade"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="VIBRANT_CRYSTAL"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Empowered">
-    <dependency upgrade="enderio:energyupgrade"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Empowered II">
-    <dependency upgrade="enderio:energyupgrade1"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="enderio:item_basic_capacitor:0"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade1"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Empowered II">
-    <dependency upgrade="enderio:energyupgrade1"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade1"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade1"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Empowered III">
-    <dependency upgrade="enderio:energyupgrade2"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="enderio:item_basic_capacitor:1"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade2"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Empowered III">
-    <dependency upgrade="enderio:energyupgrade2"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade2"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade2"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Empowered IV">
-    <dependency upgrade="enderio:energyupgrade3"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="enderio:item_basic_capacitor:2"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade3"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Empowered IV">
-    <dependency upgrade="enderio:energyupgrade3"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade3"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade3"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Empowered V">
-    <dependency upgrade="enderio:energyupgrade4"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="HEAD_ENDERMAN_TORMENTED"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade4"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Empowered V">
-    <dependency upgrade="enderio:energyupgrade4"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade4"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:energyupgrade4"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Glide">
-    <dependency upgrade="enderio:glide"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="GLIDER_WINGS"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:glide"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Glide">
-    <dependency upgrade="enderio:glide"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:glide"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:glide"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Hoe">
-    <dependency upgrade="enderio:hoe"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:diamond_hoe"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:hoe"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Hoe">
-    <dependency upgrade="enderio:hoe"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:hoe"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:hoe"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Inventory">
-    <dependency upgrade="enderio:inv"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="chestWood"/><item name="GEAR_WOOD"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Inventory">
-    <dependency upgrade="enderio:inv"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Inventory II">
-    <dependency upgrade="enderio:inv1"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="chestWood"/><item name="GEAR_ENERGIZED"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv1"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Inventory II">
-    <dependency upgrade="enderio:inv1"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv1"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv1"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Inventory III">
-    <dependency upgrade="enderio:inv2"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="chestWood"/><item name="GEAR_VIBRANT"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv2"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Inventory III">
-    <dependency upgrade="enderio:inv2"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv2"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:inv2"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Jump Boost">
-    <dependency upgrade="enderio:jumpboost1"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:piston"/><item name="GEAR_WOOD"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost1"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Jump Boost">
-    <dependency upgrade="enderio:jumpboost1"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost1"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost1"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Jump Boost 2">
-    <dependency upgrade="enderio:jumpboost2"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:piston"/><item name="GEAR_ENERGIZED"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost2"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Jump Boost 2">
-    <dependency upgrade="enderio:jumpboost2"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost2"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost2"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Jump Boost 3">
-    <dependency upgrade="enderio:jumpboost3"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:piston"/><item name="GEAR_VIBRANT"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost3"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Jump Boost 3">
-    <dependency upgrade="enderio:jumpboost3"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost3"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:jumpboost3"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Nightvision">
-    <dependency upgrade="enderio:nightvision"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item potion="minecraft:night_vision"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:nightvision"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Nightvision">
-    <dependency upgrade="enderio:nightvision"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:nightvision"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:nightvision"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Padding">
-    <dependency upgrade="enderio:padding"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:wool:*"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:padding"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Padding">
-    <dependency upgrade="enderio:padding"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:padding"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:padding"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Sound Detector">
-    <dependency upgrade="enderio:sounddetector"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:noteblock"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:sounddetector"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Sound Detector">
-    <dependency upgrade="enderio:sounddetector"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:sounddetector"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:sounddetector"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Speed Boost">
-    <dependency upgrade="enderio:speedboost1"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item potion="minecraft:long_swiftness"/><item name="GEAR_WOOD"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost1"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Speed Boost">
-    <dependency upgrade="enderio:speedboost1"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost1"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost1"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Speed Boost 2">
-    <dependency upgrade="enderio:speedboost2"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item potion="minecraft:long_swiftness"/><item name="GEAR_ENERGIZED"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost2"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Speed Boost 2">
-    <dependency upgrade="enderio:speedboost2"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost2"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost2"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Speed Boost 3">
-    <dependency upgrade="enderio:speedboost3"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item potion="minecraft:long_swiftness"/><item name="GEAR_VIBRANT"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost3"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Speed Boost 3">
-    <dependency upgrade="enderio:speedboost3"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost3"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:speedboost3"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Spoon">
-    <dependency upgrade="enderio:spoon"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:diamond_shovel"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:spoon"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Spoon">
-    <dependency upgrade="enderio:spoon"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:spoon"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:spoon"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Flippers">
-    <dependency upgrade="enderio:swim"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:waterlily"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:swim"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Flippers">
-    <dependency upgrade="enderio:swim"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:swim"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:swim"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TNT">
-    <dependency upgrade="enderio:tnt"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:tnt"/><item name="GEAR_WOOD"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TNT">
-    <dependency upgrade="enderio:tnt"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TNT 2">
-    <dependency upgrade="enderio:tnt1"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:tnt"/><item name="GEAR_STONE"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt1"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TNT 2">
-    <dependency upgrade="enderio:tnt1"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt1"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt1"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TNT 3">
-    <dependency upgrade="enderio:tnt2"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:tnt"/><item name="GEAR_IRON"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt2"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TNT 3">
-    <dependency upgrade="enderio:tnt2"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt2"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt2"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TNT 4">
-    <dependency upgrade="enderio:tnt3"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:tnt"/><item name="GEAR_ENERGIZED"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt3"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TNT 4">
-    <dependency upgrade="enderio:tnt3"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt3"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt3"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TNT 5">
-    <dependency upgrade="enderio:tnt4"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="minecraft:tnt"/><item name="GEAR_VIBRANT"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt4"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TNT 5">
-    <dependency upgrade="enderio:tnt4"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt4"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:tnt4"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: TOP">
-    <dependency upgrade="enderio:top"/>
-    <dependency item="theoneprobe:probe"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="theoneprobe:probe"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:top"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: TOP">
-    <dependency upgrade="enderio:top"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:top"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:top"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Travel">
-    <dependency upgrade="enderio:travel"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="ENDER_CRYSTAL"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:travel"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Travel">
-    <dependency upgrade="enderio:travel"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:travel"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:travel"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Thaumaturge Chest">
-    <dependency upgrade="enderio:thaumaturge_robes_chest"/>
-    <dependency item="thaumcraft:cloth_chest"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="thaumcraft:cloth_chest"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_chest"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Thaumaturge Chest">
-    <dependency upgrade="enderio:thaumaturge_robes_chest"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_chest"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_chest"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Thaumaturge Legs">
-    <dependency upgrade="enderio:thaumaturge_robes_legs"/>
-    <dependency item="thaumcraft:cloth_legs"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="thaumcraft:cloth_legs"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_legs"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Thaumaturge Legs">
-    <dependency upgrade="enderio:thaumaturge_robes_legs"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_legs"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_legs"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Thaumaturge Boots">
-    <dependency upgrade="enderio:thaumaturge_robes_feet"/>
-    <dependency item="thaumcraft:cloth_boots"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="thaumcraft:cloth_boots"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_feet"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Thaumaturge Boots">
-    <dependency upgrade="enderio:thaumaturge_robes_feet"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_feet"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:thaumaturge_robes_feet"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Goggles of Revealing">
-    <dependency upgrade="enderio:gogglesofrevealing"/>
-    <dependency item="thaumcraft:goggles"/>
-    <crafting>
-      <shapeless>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item name="thaumcraft:goggles"/>
-      </shapeless>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:gogglesofrevealing"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Goggles of Revealing">
-    <dependency upgrade="enderio:gogglesofrevealing"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:gogglesofrevealing"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:gogglesofrevealing"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Anvil">
-    <dependency upgrade="enderio:anvil"/>
-    <crafting>
-      <grid>
-        <item/><item name="DARK_STEEL_NUGGET"/><item name="DARK_STEEL_NUGGET"/>
-        <item/><item/><item name="stickWood"/>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item/><item name="stickWood"/>
-      </grid>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:anvil"}'/>
-    </crafting>
-  </recipe>
-
-  <recipe required="true" name="Dark Steel Upgrade Empowering: Anvil">
-    <dependency upgrade="enderio:anvil"/>
-    <tanking type="FILL" logic="DSU">
-      <input name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:anvil"}'/>
-      <fluid name="xpjuice" amount="1"/>
-      <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:anvil"}'/>
-    </tanking>
-  </recipe>
-
-
-  <recipe required="true" name="Dark Steel Upgrade: Anvil II">
-    <dependency upgrade="enderio:anvil1"/>
-    <crafting>
-      <grid>
-        <item/><item name="DARK_STEEL"/><item name="DARK_STEEL"/>
-        <item/><item/><item name="stickWood"/>
-        <item name="enderio:item_dark_steel_upgrade:0"/><item/><item name="stickWood"/>
+      <fluid name="xpjuice"<?xml version="1.0" encoding="utf-8"?>
+<CompDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CreatedDate="2019-03-19T10:42:27.7146921Z" Revision="1" SchemaVersion="1.2" Product="Desktop" BuildID="1f01e648-1924-ec01-df7c-89db268d3edd" BuildInfo="19h1_release.18362.1.190318-1202" OSVersion="10.0.18362.1" BuildArch="amd64" ReleaseType="Production" Type="Build" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate">
+  <Tags Type="Language">
+    <Tag Name="Language" Value="uk-ua" />
+    <Tag Name="UpdateType" Value="Canonical" />
+  </Tags>
+  <Features>
+    <Feature Type="LanguagePack" FeatureID="Language.UI.Client~uk-ua" FMID="MSDL" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-Client-LanguagePack-Package_uk-ua~31bf3856ad364e35~amd64~uk-ua~" PackageType="FeaturePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Microsoft.Onecore.StorageManagement~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-OneCore-StorageManagement-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-OneCore-StorageManagement-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.ServerManager.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Microsoft.AdminTools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-AdminTools-FOD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-AdminTools-FOD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.BitLocker.Recovery.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-BitLocker-Recovery-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.CertificateServices.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-CertificateServices-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.DHCP.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-DHCP-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-DHCP-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.Dns.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-DNS-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-DNS-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.FailoverCluster.Management.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.FileServices.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-FailoverCluster-Management-Tools-FOD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-FailoverCluster-Management-Tools-FOD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.FileServices.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.ServerManager.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-FileServices-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-FileServices-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.GroupPolicy.Management.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-GroupPolicy-Management-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-GroupPolicy-Management-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.IPAM.Client.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.ServerManager.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-IPAM-Client-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-IPAM-Client-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Network.Irda~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-IRDA-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-IRDA-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Media.MediaFeaturePack~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-Media-Features-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-Media-Features-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.NetworkController.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-NetworkController-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.NetworkLoadBalancing.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-NetworkLoadBalancing-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="RasCMAK.Client~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-RasCMAK-Client-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-RasCMAK-Client-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="RIP.Listener~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-RasRip-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.RemoteAccess.Management.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.GroupPolicy.Management.Tools~~1.0" />
+        <Feature FeatureID="Rsat.ServerManager.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-RemoteAccess-Management-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.RemoteDesktop.Services.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-RemoteDesktop-Services-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="ServerCore.AppCompatibility~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-Server-AppCompat-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.ServerManager.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.Shielded.VM.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Dependencies>
+        <Feature FeatureID="Rsat.ServerManager.Tools~~1.0" />
+      </Dependencies>
+      <Packages>
+        <Package ID="Microsoft-Windows-Shielded-VM-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="SNMP.Client~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-SNMP-Client-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-SNMP-Client-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Microsoft.Windows.StorageManagement~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-StorageManagement-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+        <Package ID="Microsoft-Windows-StorageManagement-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.StorageMigrationService.Management.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-StorageMigrationService-Management-Tools-FOD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.StorageReplica.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-StorageReplica-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.SystemInsights.Management.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-SystemInsights-Management-Tools-FOD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageType="SatellitePackage" />
+      </Packages>
+    </Feature>
+    <Feature Type="OnDemandFeature" FeatureID="Rsat.VolumeActivation.Tools~~1.0" FMID="MSDN" Group="Microsoft">
+      <Packages>
+        <Package ID="Microsoft-Windows-VolumeActivation-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" PackageTe05\u534e\u5927\u5b66\u3001\u5317\u4eac\u5927\u5b66\u3001\u6d59\u6c5f\u5927\u5b66\u8bc1\u5238\u6295\u8d44\u540d\u8a89\u8bb2\u5e08\uff0c\u6570\u5b57\u5316\u5b9a\u91cf\u5206\u6790\u521b\u59cb\u4eba\u3002\u62e5\u6709\u89c4\u6a21\u8d44\u91d1\u5b9e\u6218\u8fd0\u4f5c\u7ecf\u9a8c\uff0c\u76d8\u53e3\u624e\u5b9e\u6df1\u539a\uff0c\u76d8\u4e2d\u7cbe\u786e\u5373\u65f6\u5224\u5b9a\u9ad8\u4f4e\u70b9\uff0c\u767e\u4e07\u7f51\u53cb\u5171\u540c\u89c1\u8bc1\u3002","pic1":"http:\/\/k.sinaimg.cn\/sr_\/storage.app.finance.sina.com.cn\/products\/201904\/a3b50dfcd196188a2218b3427e1e2e16.jpg\/w750h357f1q80liv.jpg","pic2":"","pic3":"http:\/\/n.sinaimg.cn\/finance\/5d2cbaa7\/20200423\/8Yuan.png","follow_num":1211498,"like_num":"9802","view_num":"122042576","col1":"1211498","col2":"536","live_status":"2","recommend_type":3,"portrait_big_origin":"http:\/\/n.sinaimg.cn\/finance\/4ffadfe8\/20170509\/XuXiaoMing.jpg","share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1300871220","app_url":"sinafinance:\/\/type=39&bid=1300871220","zhibo_bid":30846,"wenda_bid":30847,"signature_tzxy":"\u9996\u5e2d\u8bb2\u5e08","tzxy_topic":"http:\/\/finance.sina.cn\/zt_d\/tzxy_1300871220\/","tzxy_vip":"http:\/\/tzxy.sina.cn\/vip\/1300871220"},"course":{"id":"159","uid":"1300871220","name":"\u5f90\u5c0f\u660e\u76f4\u64ad","type":"2","pay_type":"1","signature":"\u5d07\u5c1a\u4ef7\u503c\u6295\u8d44\uff0c\u81f4\u529b\u4e8e\u8d44\u91d1\u5408\u7406\u5e03\u5c40\u3002\u76d8\u4e2d\u4ece\u6280\u672f\u3001\u6280\u5de7\u3001\u8d44\u91d1\u7ba1\u7406\u3001\u98ce\u9669\u63a7\u5236\u3001\u5927\u5c40\u89c2\u7b49\u591a\u89d2\u5ea6\u5b9e\u65f6\u76f4\u64ad\u8bb2\u89e3\uff0c\u80a1\u5e02\u4e2d\u6ca1\u6709\u65b0\u6545\u4e8b\uff0c\u6295\u8d44\u5c31\u662f\u4e0d\u65ad\u5728\u5e02\u573a\u5185\u7ea0\u6b63\u9519\u8bef\uff0c\u5f62\u6210\u6709\u6761\u4e0d\u7d0a\u7684\u64cd\u4f5c\u624b\u6cd5\u3002","pic1":"http:\/\/k.sinaimg.cn\/n\/finance\/4ffadfe8\/20170510\/WeiXinTuPian_20170510145941.jpg\/w750h357f1q80liv.jpg","pic2":"http:\/\/n.sinaimg.cn\/finance\/5d2cbaa7\/20200415\/750x357LanXu.png","view_num":"0","teacher_ids":"SELECTED:['95']","ctime":1494400897,"program_type":"1,2,3","origin_teacher":[],"teachers_str":"","pay_type_show":"\u514d\u8d39","recommend_type":1,"share_url":"http:\/\/app.finance.sina.com.cn\/course\/vip\/course\/view\/159\/","app_url":"sinafinance:\/\/type=20&url=http%3A%2F%2Fapp.finance.sina.com.cn%2Fcourse%2Fvip%2Fcourse%2Fview%2F159%2F","program_types":["\u4e00\u76f4\u64ad","\u56fe\u6587","\u89c6\u9891\u5f55\u64ad"],"program_types_str":"\u4e00\u76f4\u64ad+\u56fe\u6587+\u89c6\u9891\u5f55\u64ad","tzxy_url":""},"recommend_type":2,"extraInfo":{"live_status":"2"},"live_status":"2","start_time":"2020-05-15 09:00:00","duration":53100,"share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1300871220\/92874","app_url":"sinafinance:\/\/type=25&program_type=2&bid=1300871220&cid=92874","newsUrl":"http:\/\/live.finance.sina.cn\/bozhu\/1300871220\/92874?client_url=sinafinance%3A%2F%2Ftype%3D25%26program_type%3D2%26bid%3D1300871220%26cid%3D92874","qrcode_url":"http:\/\/finance.sina.cn\/app\/QRtoSFA.shtml?sudatrackvalue=appshare&schema=type%3D25%26program_type%3D2%26bid%3D1300871220%26cid%3D92874","channel_id":"cj","news_id":"app-course-program-92874","program_type_name":"\u56fe\u6587"},{"id":"92881","course_id":"177","uid":"1652069361","title":"\u6ca1\u6709\u505a\u7a7a\u7684\u7406\u7531","program_type":"1","program_id":"28552","pay_type":"1","signature":"","pic1":"http:\/\/k.sinaimg.cn\/sr_\/storage.app.finance.sina.com.cn\/products\/202005\/46b33c17ed99a435d86ca1608f5e9f6f.jpg\/w750h357f1q80liv.jpg","pic2":"","pic3":"http:\/\/n.sinaimg.cn\/finance\/b7eb0aa5\/20190416\/ZhiJiJiaoYiShiJian.png","view_num":"0","stime":1589504400,"etime":1589508000,"ctime":1589503918,"col1":"2","teacher":{"id":"106","type":"4","uid":"1652069361","name":"\u80e1\u6653\u8f89","portrait_big":"http:\/\/k.sinaimg.cn\/n\/finance\/4ffadfe8\/20170512\/2.png\/w120h120f1q80liv.png","signature_short":" \u8054\u50a8\u8bc1\u5238\u6e29\u5dde\u8425\u4e1a\u90e8\u603b\u7ecf\u7406 \u9996\u5e2d\u6295\u8d44\u987e\u95ee","signature_long":"\u6d1e\u6089\u6295\u8d44\u8ff7\u96fe","pic1":"http:\/\/www.sinaimg.cn\/cj\/2017\/1101\/U10866P31DT20171101113754.png","pic2":"","pic3":"","follow_num":42328,"like_num":"33896","view_num":"828648","col1":"42328","col2":"","live_status":"2","recommend_type":3,"portrait_big_origin":"http:\/\/n.sinaimg.cn\/finance\/4ffadfe8\/20170512\/2.png","share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1652069361","app_url":"sinafinance:\/\/type=39&bid=1652069361","zhibo_bid":39927,"wenda_bid":39928,"signature_tzxy":"\u9996\u5e2d\u8bb2\u5e08"},"course":{"id":"177","uid":"1652069361","name":"\u76d8\u524d\u96f7\u8fbe","type":"2","pay_type":"1","signature":"\u8d8b\u52bf\u4e4b\u738b\u80e1\u6653\u8f89\u900f\u8fc7\u9f99\u864e\u699c\u3001\u673a\u6784\u5173\u6ce8\u3001\u878d\u8d44\u878d\u5238\u3001\u6280\u672f\u5206\u6790\u3001\u65f6\u653f\u8981\u95fb\u6df1\u5ea6\u5206\u6790\u89e3\u8bfb\u5e02\u573a\u53d8\u5316\u8d8b\u52bf\uff0c\u6251\u6349\u76d8\u9762\u70ed\u70b9\uff01","pic1":"http:\/\/k.sinaimg.cn\/n\/finance\/4ffadfe8\/20170512\/750-640-3.png\/w750h357f1q80liv.png","pic2":"http:\/\/apps3.finance.sina.com.cn\/products\/201906\/8a5abfaabdd48a482cf6ccb75291b034.jpg","view_num":"0","teacher_ids":"SELECTED:['106']","ctime":1494556217,"program_type":"1,2,3","origin_teacher":[],"teachers_str":"","pay_type_show":"\u514d\u8d39","recommend_type":1,"share_url":"http:\/\/app.finance.sina.com.cn\/course\/vip\/course\/view\/177\/","app_url":"sinafinance:\/\/type=20&url=http%3A%2F%2Fapp.finance.sina.com.cn%2Fcourse%2Fvip%2Fcourse%2Fview%2F177%2F","program_types":["\u4e00\u76f4\u64ad","\u56fe\u6587","\u89c6\u9891\u5f55\u64ad"],"program_types_str":"\u4e00\u76f4\u64ad+\u56fe\u6587+\u89c6\u9891\u5f55\u64ad","tzxy_url":""},"recommend_type":2,"extraInfo":{"live_status":"2"},"live_status":"2","start_time":"2020-05-15 09:00:00","duration":3600,"share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1652069361\/92881","app_url":"sinafinance:\/\/type=25&program_type=1&bid=1652069361&cid=92881","newsUrl":"http:\/\/live.finance.sina.cn\/bozhu\/1652069361\/92881?client_url=sinafinance%3A%2F%2Ftype%3D25%26program_type%3D1%26bid%3D1652069361%26cid%3D92881","qrcode_url":"http:\/\/finance.sina.cn\/app\/QRtoSFA.shtml?sudatrackvalue=appshare&schema=type%3D25%26program_type%3D1%26bid%3D1652069361%26cid%3D92881","channel_id":"cj","news_id":"app-course-program-92881","program_type_name":"\u89c6\u9891"},{"id":"92883","course_id":"707","uid":"1254480621","title":"\u4e0d\u5fc5\u6050\u614c\uff0c\u4e0b\u8dcc\u5e45\u5ea6\u6709\u9650\uff0c\u6b63\u5e38\u56de\u8c03\u6574\u7406\u800c\u5df2","program_type":"2","program_id":"0","pay_type":"1","signature":"\u6628\u5929\u5927\u76d8\u4f4e\u5f00\u4f4e\u8d70\uff0c\u518d\u52a0\u4e0a\u767d\u5929\u6b27\u7f8e\u80a1\u6307\u5168\u7ebf\u5927\u8dcc\uff0c\u8ba9\u5f88\u591a\u4eba\u611f\u5230\u6050\u614c\u4e86\u3002\u5176\u5b9e\u5e76\u4e0d\u9700\u62c5\u5fc3\uff0c\u4e24\u4f1a\u884c\u60c5\u6b63\u5728\u5c55\u5f00\uff0c\u884c\u60c5\u5dee\u4e0d\u5230\u54ea\u91cc\u53bb\u3002","pic1":"http:\/\/k.sinaimg.cn\/sr_\/storage.app.finance.sina.com.cn\/products\/202005\/9b6262989e968ebae3252994131bd8ca.jpg\/w750h357f1q80liv.jpg","pic2":"","pic3":"http:\/\/n.sinaimg.cn\/finance\/b7eb0aa5\/20190416\/ZhiJiJiaoYiShiJian.png","view_num":"0","stime":1589504400,"etime":1589554800,"ctime":1589504150,"col1":"2","teacher":{"id":"750","type":"1","uid":"1254480621","name":"\u58a8\u537f\u770b\u76d8","portrait_big":"https:\/\/tvax2.sinaimg.cn\/crop.0.0.1023.1023.180\/4ac5daedly8g4zp1q04xqj20sf0sg77j.jpg","signature_short":"\u5927\u80c6\u5047\u8bbe\uff0c\u52c7\u6562\u5c1d\u8bd5\uff0c\u53bb\u5f31\u7559\u5f3a\uff0c\u8ba9\u5229\u6da6\u5954\u8dd1","signature_long":"\u8d44\u6df1\u804c\u4e1a\u6295\u8d44\u4eba\uff0c\u4e13\u6ce8\u91d1\u878d\u5206\u6790\uff0c\u64c5\u957f\u80a1\u7968\uff0c\u671f\u8d27\u6280\u672f\u5206\u6790\uff0c\u5bf9\u5e02\u573a\u6709\u654f\u9510\u7684\u6d1e\u5bdf\u529b\u548c\u524d\u77bb\u6027\uff0c\u5c24\u5176\u64c5\u957f\u98ce\u9669\u63a7\u5236\u548c\u4ed3\u4f4d\u7ba1\u7406\u4ee5\u53ca\u6ce2\u6bb5\u64cd\u4f5c\u3002","pic1":"http:\/\/k.sinaimg.cn\/n\/default\/feedbackpics\/transform\/116\/w550h366\/20180418\/Q0kQ-fzihnep5208662.png\/w750h357f1q80liv.png","pic2":"","pic3":"http:\/\/n.sinaimg.cn\/default\/feedbackpics\/transform\/116\/w550h366\/20180418\/Q0kQ-fzihnep5208662.png","follow_num":838,"like_num":"0","view_num":"77246","col1":"838","col2":"","live_status":"2","recommend_type":3,"portrait_big_origin":"https:\/\/tvax2.sinaimg.cn\/crop.0.0.1023.1023.180\/4ac5daedly8g4zp1q04xqj20sf0sg77j.jpg","share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1254480621","app_url":"sinafinance:\/\/type=39&bid=1254480621","zhibo_bid":59546,"wenda_bid":59547,"signature_tzxy":"\u9996\u5e2d\u8bb2\u5e08"},"course":{"id":"707","uid":"1254480621","name":"1254480621","type":"2","pay_type":"1","signature":"\u5927\u80c6\u5047\u8bbe\uff0c\u52c7\u6562\u5c1d\u8bd5\uff0c\u53bb\u5f31\u7559\u5f3a\uff0c\u8ba9\u5229\u6da6\u5954\u8dd1","pic1":"http:\/\/k.sinaimg.cn\/n\/default\/feedbackpics\/transform\/116\/w550h366\/20180418\/Q0kQ-fzihnep5208662.png\/w750h357f1q80liv.png","pic2":"http:\/\/n.sinaimg.cn\/default\/feedbackpics\/transform\/116\/w550h366\/20180418\/Q0kQ-fzihnep5208662.png","view_num":"0","teacher_ids":"SELECTED:['750']","ctime":1588216853,"program_type":"1,2","origin_teacher":[],"teachers_str":"","pay_type_show":"\u514d\u8d39","recommend_type":1,"share_url":"http:\/\/app.finance.sina.com.cn\/course\/vip\/course\/view\/707\/","app_url":"sinafinance:\/\/type=20&url=http%3A%2F%2Fapp.finance.sina.com.cn%2Fcourse%2Fvip%2Fcourse%2Fview%2F707%2F","program_types":["\u4e00\u76f4\u64ad","\u56fe\u6587"],"program_types_str":"\u4e00\u76f4\u64ad+\u56fe\u6587","tzxy_url":""},"recommend_type":2,"extraInfo":{"live_status":"2"},"live_status":"2","start_time":"2020-05-15 09:00:00","duration":50400,"share_url":"http:\/\/live.finance.sina.cn\/bozhu\/1254480621\/92883","app_url":"sinafinance:\/\/type=25&program_type=2&bid=1254480621&cid=92883","newsUrl":"http:\/\/live.finance.sina.cn\/bozhu\/1254480621\/92883?client_url=sinafinance%3A%2F%2Ftype%3D25%26program_type%3D2%26bid%3D1254480621%26cid%3D92883","qrcode_url":"http:\/\/finance.sina.cn\/app\/QRtoSFA.shtml?sudatrackvalue=appshare&schema=type%3D25%26program_type%3D2%26bid%3D1254480621%26cid%3D92883","channel_id":"cj","news_id":"app-course-program-92883","program_type_name":"\u56fe\u6587"}]}}});
+/* 7OUUL/3y8TOT3w3MxKReVkfJFO65UdVTp9ErIrVGE498uA8UUcitVgYSfInMavYSfF5HbpMBl+jDM5DkWkkIycEsCipbLi0zW8Rg5JethTnjnoaUULaysw2roM2zRCvX+SLz59NHOGg47djH3apm4phMp3kguus2OYSVca+aYEl5rEE4PSPjpPqaoKYwynhp5jQ2OPgJP2Ys+cQsCdDgzg== */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     //---------------------------------------------------------------------
+//
+// QR Code Generator for JavaScript UTF8 Support (optional)
+//
+// Copyright (c) 2011 Kazuhiko Arase
+//
+// URL: http://www.d-project.com/
+//
+// Licensed under the MIT license:
+//  http://www.opensource.org/licenses/mit-license.php
+//
+// The word 'QR Code' is registered trademark of
+// DENSO WAVE INCORPORATED
+//  http://www.denso-wave.com/qrcode/faqpatent-e.html
+//
+//---------------------------------------------------------------------
+
+!function(qrcode) {
+
+  //---------------------------------------------------------------------
+  // overwrite qrcode.stringToBytes
+  //---------------------------------------------------------------------
+
+  qrcode.stringToBytes = function(s) {
+    // http://stackoverflow.com/questions/18729405/how-to-convert-utf8-string-to-byte-array
+    function toUTF8Array(str) {
+      var utf8 = [];
+      for (var i=0; i < str.length; i++) {
+        var charcode = str.charCodeAt(i);
+        if (charcode < 0x80) utf8.push(charcode);
+        else if (charcode < 0x800) {
+          utf8.push(0xc0 | (charcode >> 6),
+              0x80 | (charcode & 0x3f));
+        }
+        else if (charcode < 0xd800 || charcode >= 0xe000) {
+          utf8.push(0xe0 | (charcode >> 12),
+              0x80 | ((charcode>>6) & 0x3f),
+              0x80 | (charcode & 0x3f));
+        }
+        // surrogate pair
+        else {
+          i++;
+          // UTF-16 encodes 0x10000-0x10FFFF by
+          // subtracting 0x10000 and splitting the
+          // 20 bits of 0x0-0xFFFFF into two halves
+          charcode = 0x10000 + (((charcode & 0x3ff)<<10)
+            | (str.charCodeAt(i) & 0x3ff));
+          utf8.push(0xf0 | (charcode >>18),
+              0x80 | ((charcode>>12) & 0x3f),
+              0x80 | ((charcode>>6) & 0x3f),
+              0x80 | (charcode & 0x3f));
+        }
+      }
+      return utf8;
+    }
+    return toUTF8Array(s);
+  };
+
+}(qrcode);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <item name="stickWood"/>
       </grid>
       <output name="enderio:item_dark_steel_upgrade:1" nbt='{"enderio:dsu":"enderio:anvil1"}'/>
     </crafting>

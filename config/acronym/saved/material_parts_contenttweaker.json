@@ -1,124 +1,181 @@
-{
-  "materialMappings": {
-    "aliasimium_gear": 97,
-    "astralimium_plate": 82,
-    "tungsten_carbon_plate": 26,
-    "red_steel_dust": 88,
-    "refined_iron_nugget": 35,
-    "blood_solid_ore": 118,
-    "chromium_dust": 0,
-    "flowerium_nugget": 75,
-    "blue_steel_ingot": 44,
-    "blood_solid_ingot": 115,
-    "berylium_nugget": 107,
-    "refined_iron_ingot": 36,
-    "tungsten_steel_ingot": 20,
-    "blue_steel_ore": 47,
-    "refined_iron_gear": 33,
-    "flowerium_ingot": 76,
-    "chromium_plate": 2,
-    "wood_heart_ore": 71,
-    "tungsten_plate": 10,
-    "red_steel_plate": 90,
-    "coral_steel_ingot": 52,
-    "chromium_gear": 1,
-    "berylium_plate": 106,
-    "old_gold_ingot": 60,
-    "tungsten_gear": 9,
-    "old_gold_nugget": 59,
-    "tungsten_steel_gear": 17,
-    "aliasimium_ingot": 100,
-    "red_steel_rod": 93,
-    "blue_steel_gear": 41,
-    "wood_heart_rod": 69,
-    "old_gold_gear": 57,
-    "blue_steel_rod": 45,
-    "berylium_ingot": 108,
-    "red_steel_ingot": 92,
-    "red_steel_nugget": 91,
-    "tungsten_carbon_block": 30,
-    "flowerium_ore": 79,
-    "coral_steel_dust": 48,
-    "aliasimium_rod": 101,
-    "wood_heart_plate": 66,
-    "tungsten_dust": 8,
-    "red_steel_ore": 95,
-    "tungsten_steel_nugget": 19,
-    "aliasimium_dust": 96,
-    "wood_heart_nugget": 67,
-    "blood_solid_block": 117,
-    "refined_iron_ore": 39,
-    "chromium_nugget": 3,
-    "tungsten_block": 14,
-    "old_gold_ore": 63,
-    "tungsten_carbon_ingot": 28,
-    "blue_steel_dust": 40,
-    "flowerium_rod": 77,
-    "aliasimium_ore": 103,
-    "coral_steel_gear": 49,
-    "blood_solid_rod": 116,
-    "refined_iron_plate": 34,
-    "old_gold_rod": 61,
-    "chromium_rod": 5,
-    "berylium_gear": 105,
-    "tungsten_carbon_dust": 24,
-    "old_gold_block": 62,
-    "tungsten_steel_block": 22,
-    "tungsten_carbon_ore": 31,
-    "wood_heart_block": 70,
-    "berylium_block": 110,
-    "aliasimium_block": 102,
-    "flowerium_block": 78,
-    "blood_solid_plate": 113,
-    "red_steel_block": 94,
-    "astralimium_dust": 80,
-    "wood_heart_dust": 64,
-    "coral_steel_block": 54,
-    "tungsten_ingot": 12,
-    "aliasimium_nugget": 99,
-    "coral_steel_ore": 55,
-    "coral_steel_nugget": 51,
-    "blue_steel_block": 46,
-    "flowerium_dust": 72,
-    "chromium_ore": 7,
-    "old_gold_dust": 56,
-    "blue_steel_nugget": 43,
-    "tungsten_nugget": 11,
-    "berylium_rod": 109,
-    "refined_iron_rod": 37,
-    "tungsten_carbon_rod": 29,
-    "astralimium_gear": 81,
-    "coral_steel_rod": 53,
-    "astralimium_rod": 85,
-    "astralimium_ingot": 84,
-    "coral_steel_plate": 50,
-    "astralimium_block": 86,
-    "blood_solid_gear": 112,
-    "flowerium_gear": 73,
-    "refined_iron_block": 38,
-    "berylium_ore": 111,
-    "wood_heart_ingot": 68,
-    "tungsten_ore": 15,
-    "tungsten_steel_ore": 23,
-    "astralimium_ore": 87,
-    "flowerium_plate": 74,
-    "old_gold_plate": 58,
-    "blood_solid_dust": 119,
-    "chromium_block": 6,
-    "tungsten_steel_dust": 16,
-    "tungsten_rod": 13,
-    "blood_solid_nugget": 114,
-    "aliasimium_plate": 98,
-    "blue_steel_plate": 42,
-    "red_steel_gear": 89,
-    "tungsten_carbon_gear": 25,
-    "astralimium_nugget": 83,
-    "tungsten_carbon_nugget": 27,
-    "berylium_dust": 104,
-    "refined_iron_dust": 32,
-    "tungsten_steel_rod": 21,
-    "tungsten_steel_plate": 18,
-    "wood_heart_gear": 65,
-    "chromium_ingot": 4
-  }
-}
+[DEAFULTGP]
+Name=债券ETF
+ShowName=
+CmdNum=3
+GPSetCode_Code1=1_511310
+GPSetCode_Code2=1_000049
+GPSetCode_Code3=1_600802
+GPSetCode_Code4=1_600803
+GPSetCode_Code5=1_600804
+GPSetCode_Code6=1_600805
+GPSetCode_Code7=0_106082
+GPSetCode_Code8=1_600807
+GPSetCode_Code9=1_600808
+GPSetCode_Code10=1_600809
+GPSetCode_Code11=1_600810
+GPSetCode_Code12=1_600811
+GPSetCode_Code13=1_600812
+GPSetCode_Code14=0_002241
+GPSetCode_Code15=1_600814
+GPSetCode_Code16=1_600815
+GPSetCode_Code17=1_600816
+GPSetCode_Code18=1_600817
+GPSetCode_Code19=1_600818
+GPSetCode_Code20=1_600819
+UnitNum=6
+KeyGuyToExtern=0
+ForceUseDS=0
+PadMaxCx=0
+PadMaxCy=0
+PadHelpUrl=
+UnSizeMode=0
+FixedSwitchMode=0
+AutoFitMode=0
+UserPadFlag=0
+RelType=0
+CTPGroupType=0
+AutoSize=0
+[STEP0]
+SplitWhich=-1
+UnitStr=大数据组件
+UnitDesc=
+UnitGlStr=
+UnitType=BIGDATA_UNIT
+UnitStyle=ZST_BIG
+HowToSplit=0
+SplitRatio=100.0000
+ShowGpNo=1
+IsLocked=0
+Fixed_Width=0
+Fixed_Height=0
+IsCurrent=1
+OneCanShowSwitch=0
+ShowRefreshBtn=1
+SwitchBarPos=0
+SwitchBarScheme=0
+GPType=-1
+BlockFlag=3360
+ZAFMode=0
+LineSelMode=0
+GridNoSwitch=1
+GridPrivateCol=0
+ColString=
+CfgName=gxjty_etfjj107
+[STEP1]
+SplitWhich=0
+UnitStr=行情
+UnitDesc=
+UnitGlStr=
+UnitType=HQ_UNIT
+UnitStyle=ZST_BIG
+HowToSplit=-1
+SplitRatio=50.0000
+ShowGpNo=1
+IsLocked=0
+Fixed_Width=220
+Fixed_Height=420
+IsCurrent=1
+OneCanShowSwitch=0
+ShowRefreshBtn=0
+SwitchBarPos=1
+SwitchBarScheme=4
+ShowPkxd=0
+NoTitleArea=0
+[STEP2]
+SplitWhich=1
+UnitStr=分时图
+UnitDesc=
+UnitGlStr=
+UnitType=ZST_UNIT
+UnitStyle=ZST_BIG
+HowToSplit=1
+SplitRatio=84.2105
+ShowGpNo=1
+IsLocked=0
+Fixed_Width=0
+Fixed_Height=0
+IsCurrent=0
+OneCanShowSwitch=0
+ShowRefreshBtn=0
+SwitchBarPos=1
+SwitchBarScheme=4
+ZstYAxisEmpty=0
+ZstStyle=0
+ZstUnitSwitch=0
+ZSTManyDay=1
+ManyDayZST=0
+[STEP3]
+SplitWhich=-2
+UnitStr=分析图
+UnitDesc=
+UnitGlStr=
+UnitType=FXT_UNIT
+UnitStyle=FXT_BIG
+HowToSplit=1
+SplitRatio=84.2105
+ShowGpNo=1
+IsLocked=0
+Fixed_Width=0
+Fixed_Height=0
+IsCurrent=1
+OneCanShowSwitch=0
+ShowRefreshBtn=0
+SwitchBarPos=1
+SwitchBarScheme=4
+InitShowNum=101
+FxtYAxisEmpty=2
+WndNum=2
+FXPeriod=5
+Formula01=
+Formula02=VOL-TDX
+FxtColorIndex=
+FxtExpIndex=
+[STEP4]
+SplitWhich=2
+UnitStr=分时图
+UnitDesc=
+UnitGlStr=
+UnitType=ZST_UNIT
+UnitStyle=ZST_MULGP
+HowToSplit=1
+SplitRatio=50.0000
+ShowGpNo=-2
+IsLocked=1
+Fixed_Width=0
+Fixed_Height=0
+IsCurrent=0
+OneCanShowSwitch=0
+ShowRefreshBtn=0
+SwitchBarPos=1
+SwitchBarScheme=4
+ZstYAxisEmpty=4
+ZstStyle=0
+ZstUnitSwitch=0
+ZSTManyDay=1
+ManyDayZST=0
+MulGPNum=1
+CurSwitch=0
+GPSetCode_Code1=1_000012
+[STEP5]
+SplitWhich=-2
+UnitStr=分析图
+UnitDesc=
+UnitGlStr=
+UnitType=FXT_UNIT
+UnitStyle=FXT_MULGP
+HowToSplit=1
+SplitRatio=50.0000
+ShowGpNo=-2
+IsLocked=1
+Fixed_Width=0
+Fixed_Height=0
+IsCurrent=1
+OneCanShowSwitch=0
+ShowRefreshBtn=0
+SwitchBarPos=1
+SwitchBarScheme=4
+InitShowNum=130
+FxtYAxisEmpty=2
+WndNum=2
+FXPeriod=5
+Formula0

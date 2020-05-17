@@ -1176,193 +1176,45 @@
       <documentation>A marker to disable a recipe. Can be used together or instead of the disabled attribute.</documentation>
     </annotation>
     <sequence>
-      <element name="config" type="enderio:configComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-    </sequence>
-  </complexType>
+      <element name=Ù  fw‡‡ˆ‡ˆˆˆx™˜ˆ™ˆˆ‡™‰ˆ˜ˆˆˆe‡ˆ‡ˆ©ˆˆˆˆˆˆ˜ˆˆ˜ˆ‰ˆˆ‰˜ˆˆxˆˆ˜xˆˆxˆˆ‡ˆˆ™˜™x‡™˜˜˜˜˜‰™™˜™‰ˆ™˜‰˜˜˜˜˜ˆˆš™‰™˜‰™ˆˆˆ‰™˜‰˜˜‰›˜š˜˜‰ˆ˜ˆ™˜™ˆ‰™˜˜‰Š˜˜˜               Ê       ©ÌÀ   ¹ ¼    ©À»  °»À º¼ÌÌ ¬©ËÀÌÌ ¨Ë°ÌÌ À™º«Ì Ì©ºº¬  ÀÌÀ °                        „a…©¦¬Q¸QŠ™0—›<â  ÃèMc]ƒXyP0AfÀ ÀİTÓ¡±Œ˜ÂåàÌñ•¸ã~G›Š†ºÃCz	ŠL¹6–„•£‰p DR""(9 ö/¬í¢d¡Ã˜%­Cí~ÿtı³és²©Ë‘ŒôÂaˆ…À(/@¦@±"”>@ê®
+.Öilğ…¬ -fŞ€Šö]·q¸L!¤³OÏ–,ØcPaÿêhPAaQ@ %Oq¨âÕ¬pAÎYk°­Ò›ødºC9y¿»çw¡øŠJ~Ób*êŒ;×ƒáÊT9ıÊ{–ü¢ gl©ì‰@âßtR´(<â$²é/•gÙ)¾ ¬ÁAyË:ÑŠÚJL°å	ì9si|õ‚Œ†Ô*ÜIºÊãè_À¿ßßûM¹R8\¦Àı?:"á Œbå¥|ÆÿL³y4Ê¬İËÕŞñ+7Ù0µêÄÓ÷…°ğ'¤ËÚ@qÜVğ+y9ë÷&úø¢(É]ä—d¾Ó¥F‰±C$êßşMEtQä«î~â¬‡u`îVŞc˜l{u²Ú2"ılÉSAÜŸ­‰?·v³\­É2X¬‡)9˜g=÷Lb¢8ËÖnOşo£´Íb:±4Oy\G‡Áß9/Z¸ÍˆÚ¨|J9øş¦B"HEÛ%ıöeˆ~òtû‘ö|»¬Ÿ‚µ£ÖĞÙVJınâÿJ9…lÇi¿ZX€Éı¨®œ–F•$ŸĞ [ŸiIEVsXˆ÷+y9/ÔÒ}â##Ë¨¾¦‹ ‘;ïü5‘Ka ˜@}ölÆüxÉğ¡ÑŸĞ0}Â¬öOØ3!CøOø…"†c‚Ùâ)0È…Ší	A	&4ï@âñ&½„´ãé7ä¡&~¡Ğ.~ğM€ÆÂ—„Ìã×P¡< wfÒñÂ@k‚øw¿õÜ¸,AMı-Ë¬G÷‘¶*$ hïLÄÛ1¼/@„Ğ¤~ê}@¥8‡ãê‚Û„”Èu}q‰ƒb(€z
+A¤zÅÆíŞlœ<lğc;ïøáà¯¼ÍqÔ}À†5°-Ñ`›â„nÏšÜN¤ìlX±sÀTõyÌaáå¬üÀ`ˆúA8¤5~£˜¼BXE¯.ˆƒ•+LO±“™€ îôX°oâaáA4x•w…÷¡Alu şÙ,
+@*"(UAÃÃÄ}…>y?6CÿÌ¾{…ş<À$0ùG=‹@ €Y½ÎT Â1ŒVzÆé‹{ÊÊ·&Ê÷Œ¾o;:üZ¦ÊSÈ	"TS]
+¯_İÏGË›œW‹6”—IŸÑ[Ç³d®œËV\éòtÊ³ÌDšVqsIàãl%¸"İî1ÑÓw3‚ÈĞè+öØµíÙÛ©,%õkczöN€–4@g1İ²±Úå&ór­3îC§
+û/òVRy…ÔüNkE­&Ô¢^ª}Ëİ°ßSNò6”³ôI;{gş…¯ä®r]'¤6Ä\İ5¥á$¢ßõºÖØL›vğö—[ãvÊŸ‡;hÜÎ¯}}(ùÆ{l'>Úu|°Š…ºS"†˜æ“ØÒXÖ:ù,S£èêùöÇôñÒ¤VSLc"ò[-…¬ß'Lf”Ç>«Or/0ğÃóÑÆÂ4Ãğ##b1…ÀîaäÌğUfy¶&ÑmŞÉ¹·‡/±'Cà-mË µúkx¾˜1“`9ˆ0š„¿l~'?³üh9—7pâğ2?/eÖ „QÊ¡ü—gŒ÷<d‰àU5EµT%E~DléÏ´t3^”o«}"­S­ˆ`Ôrìû¦höÉÖ¯İîí´»üºëjbÙ9ĞôTxøtxÿçÚÀwNş*ŸPú¬{"¼òQº¤¸+ğ¯5?M¢	§*Àxã»‡Ò ÛÔ¬Ÿ ¿…äæ'´2’7ÀÌ÷†€ `ıŒê¦^ *–0M‘jŒ8Ö¸İ­7Œ­±Ö"ÉØ‹`ê~dGQ0jŠÄ/Ø€M{G1Ú8ÿ$<p~Ü·Ìº‹ºÌÖA-Ã1VóÔÏ¦;V‰‰*{´¨ü×Ó¬–¥>ù)#@¶áÇ¥iäbt¼-”HmJaég'AàÓfQ•Ö*ZË|˜öJ¹Q¨ñ4ğX*òÎ	ısŠmbÛ€4ÖëzŞLË‚n¡ùvı×"âË&iY¬c–}ã[cÀ.ÈI0¹½¬ãP.ø²“V
+ô çxöÉ®÷±³ç¸¾îÙ¾ÒµOg¹iz´™¢S…¶ëSNA!°"‰Çfí¦aBŞtú¹tv-~·Ï"¶\ĞÃ—Bç‡†3óm! hIÇzL¿Cü(ûSYX¥‚Kò]ğ(zLîÉ³¸ÏR`eÊ ‰DÎˆ‚€ TEE¸Hy_RÔŸ¾½CèYuºFü¥qÂK¯U©&‚S-E!Èİ;Î_\l`g†¨‡ËöÒ(Õ7”;§Ø“h/Ibd‘•QOÖö”V/”<V†NšÍæxO‚Y'M£5Éup&Øì¹v¼”ŒÎ\kC¿šõ¢”l®Ò.ú74ÿM$Vj‚mšJMnYÃ²0)äšñ¢ì2"‰K/w};jW»ÚäSÓÛ’æ	; æÒ’r_F:S§Êä´Wª&¼;n·œX‰†Öìy=Ëk´èKàDycN*ÈOn)Ü5\”–¬ñHœF}Å^{"G~[Ö¦ÔU[ÃÖNİ³58à›¼Ñ×îæO{ıôW{·¿ó]K#; ù214¨˜Ğhş _@”ñú
+Æn;†ÒBá	v%t°?|¡clŸĞxd`~ı+îug·º§8Ú=»•òzõ×Œ»6`RrßƒHI>Éì–/a—ø×È7xAïñİ pe0<^gİHÄ¯âWñp«¼¥€ç@4I‡ŠxÄ8Oü˜Ggğ(şy°Aà
+ñï¾GÓÿ§Wà0‹0(˜±Pq;MšXxõ^cU­‚:˜K€;Y	6‰^÷4ÅÍ¢&dØPƒ&NÀÇœ¨û¾K“r²¾ÓBóÇyÍú¸Q¶Ä$Ÿò.Ñ‰šü³Ìtş¦hİ(‰šjg'eàX/Âú¡võîwÚÖ ĞüÌ^×+¶W‘g»¿Šn„Ì§Â"¸(ævÛ#£xŒ,oÍ=J/ÿº#?Ù=›îšG–wÈxzP­_÷ï„ÒkW€æÍ½íôôiÉÎn^R†rQ¿t¡BkiğÔ:Lh‚:´ëŒ%{“­Î¥+Í<×„’EìIt×a]7·.‚væÎì·zÙı=@÷ÓÂô¦PÚ«J—2{à‡2Ig»´wuÆytÍ³ˆG–æl«¿‡YÆ\Æ§™MŠnÄA³Wßa8ÔX…î…hze®ÛtDÁ>U~‰vW 7ËªasndÊx„½jÛ…ÛLøÕ».¸9@>Á0¯™–sº/ÏÍ)¿p_Vnvr[êĞA{£í§ÿº¥Ê™È2ëuƒãœ–í;ZçQÓ†èdÊj‘bp­8ó¤áä’E&ò×y´É:xe¹Ã«şõtÕ‹{Æê]à	„PúËçFWWÜ1qşé$i¨DÆ•HóF&<êaüÊ~µ*úV5Qÿ9ª_FÕhõkHZø=î²VÉeÆÚÜ]…Ğ)$>Ü_y¿¶Ù¿vkv\²èªœqy˜d—ü†ø±11 …/`è+½Eu·M‰ÿ\FW½8¥¥š±FàF,jaC¿88 0¹ÿ:° ‡Òÿg4ã	¾~	‘vBÄuıÅÜ_×‚^¿ğû2¼µuOo¸àKÙR(¤Î"ws 3ıpÍ“ÅÄËÊâä!ò¨zQ …¢òld1Ç?gåS@xı8¡ád†Ã„ÓÓÈFÇˆàÌÄYxgèÃ©bzÙIfA;y|¯óIWuìĞúÍ%…-lu4[w“4İŞ5ÇÖ}‘olºéÙôj#²ìjÙêÌÃÚbµ›w0§H–bNéS­z*yx£µö^øïÆ×WŞ¾,r/p›4‰êChş¤‹|®Õ0gfxnˆKx’·ƒ'²H†ÛÄİ]c*²ƒYâÜF‡_÷¸IG†ø¢(8‚lATÓôšWê"£²Ï´ÓQôi†øû6ÍD£Umo*ÏIeÂ{4T¬Ns[ŸßçßÙ¬ÆÁ(*YGW¢Š£d#«vq!×Û›J–ËEeÔ3…ä	mlOÌ€ÜíÁŞ·u1,¼ò[I‹÷åÏ^x£#±ü¿üŞsÑÓHÀo;d€¹¼ÖŠ«)ŞÅT~vz»ñÃÂå‰; uÔÅ¹d}„fb–Öø@·O Úö|†İ6)bß=—Û«
+:çß¬ìŸ" %ı’
+„€ˆS(© ¸Xdï ËåÌ×­—z Ï|‰€ØxĞå¦V¿M!<õpÄÿdûkB&{óüA©­‚¨SûU>qAEyE5Pq¤	W•TFñK–œµ°”My,jşMƒÌS1wGs™>T —ÎPùõX‚ Úã§…Ê*_…!òÍ@ıÍOoŠ€şWı5BË¡ÇÌ{šşVt ª¨P ô/µ‘ˆ‰ÿôAÁìê»ÑúÉ\f÷˜Ü(Ë´†ä‡Å³æàyš«^¬iß¢KK¨ÖM®* ŞƒtÙ·Ou5TiÌøÂ÷Ù¤Xj*nŸš°u’Fm”/¶üoÚ™ëıŠ"W¾å®TG%j²x¾y$Mm:ïÛ…¦ÒeLo5Å¶[ÈæÚœ¢™r¡1íidâÒµøû;=•—FÁ0–‡>Ş½5±`7fö§´œ<•¡œ…‰:]_€ SÃıåNÍLª¸5›Ûéûq˜wv,îv¬-ÂùĞóşN¼Šû””ŒF^c€Æn e¥[î;QPóql}%goèïDw†cçèoÆ»Øè–âòNçÖöò®½ä×¹I)8V:Ü;s¢ÈºèQ¶rãº…†ŸçŸû÷F@èùNW5ñµìÜS©BíADÃØşRÅ-b°š×VİˆùĞ$¦)O€R8ò6XëFÿÒ`n~ÃêdÓ,7ü/ÿG ˜ºÛ–’ŞÑİ/ôc}ÉM]
+w$8eÖ‘3¬—ªWÒœcctÜ5`ŞšjoT‰0Íj¿:–qí¸½ñÉÖk"ÏXÉ[µóœiImº9vµ¾MXÕí(~é\œ5eôO'K¦{¨¶rgÒŒĞÉRÓœº§ö(^¥©q:}´ö	U‡Æ¸¼İ6§eÉ8š{ÈRÇomŠ‡ŒÈëöÑ‡3æCÙ˜KdçXe1'Ù¦<|şIëmBÎ|ê…„B4bÙeÙæé®º3½Ú|3‡eª†Øİ'}2Sÿì\aßQ$9r¤s¸ì„ÙÃu£LŞë¥ÄÄe4õ³”’Oäãğ Îl`o'üâ¨¥f¾Ò ^(vì¸z  }ç§;)	G|Ê;?’¨ğğzsl•èvGsüÈ©1¼Şúæ¦€ô­Y³3ß8j#õ.Sä"Û¥cEU:Éjx‡%¼¤g×Ô0ED†¼X?\…>j(F˜@èu¼uÚĞ®µó›·Y†Ê¥›†ÎvªÆÈ&æÎú+Æİõ<¼©›Ë«eö4†…±Ü<¡“ºvN—©MS4SÊå>&'‰Áà‹Z`ÃH¦ÉBÏæñ`±èìó‡Fjü.":e¿º’vq=i™”§*uc5 7=î‹R^“ŞÏ²×àwv.”w3ÄÙÂ¡lvÆ™oÉc®¢:húºnÕz¢õşÚâÍd’b:ºŠ¨>Ü/yÌÉTú,3E¾ã›º*0`¸[=˜ß
+èïı&Ü[¿¼üèœ ~õ…/€©8}_ÓUüá”.`
+\ÿ( á3Ë§ÊÃ§ÃÃ?§w”+ƒU²è¹sôW†ö²LÁ{xWõD†Ö÷¤—‡p¢Å¯“?ËküëPÈPB”	'a³	'øš@+áw'
+šÃ-‚‚â0Şû?D'‡Bú‰Oşg4Ó8iâ·ëZK–Á–WÙ˜•¢uİ¹æÁ\8+“¾}&ús7 õT\OËgçN³SI7WF±`éoğZÛÚ/L÷í·R÷‹ØSnøÒBÜÒ›¥;ãÀç‚Rd×YÛ^®gñzø&ù‚<O²à}ƒ‰¯’cÌ¨>u'î—Äçy÷m·uÚİàÌYE½ È“r«odííôNù÷2¾ÚEd#Ù¾€ù  gvw‡xwˆˆŠx˜š˜ˆ¨‡˜ˆ˜˜ˆŠyeˆˆˆ‡‰‰™Šˆ˜™ˆ—‰™¨y‡‰‰ˆˆšyyw˜x˜‰xˆ‡§˜	‰‰ˆx‡™˜™¨š˜˜Šˆ™—˜©xˆ‡‰‰˜˜ˆ™¨Š˜‰ˆ™‡Š‰˜¨Š‰ˆ˜‰‰Š‰x˜ˆˆ˜˜‰ˆ¨˜Š‰™—Š‰‰ˆš	                       	      š  š    €  
+     
+ 
+   	 ª   
+    
+    
 
-  <complexType name="fuelType">
-    <annotation>
-      <documentation>A fuel for usage in the combustion generators.</documentation>
-    </annotation>
-    <sequence>
-      <element name="config" type="enderio:configComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-    </sequence>
-    <attribute name="fluid" type="string" use="required"></attribute>
-    <attribute name="pertick" use="required">
-            <annotation>
-              <documentation>Amount of energy the fuel generates per tick (base value)</documentation>
-            </annotation>
-            <simpleType>
-        <restriction base="int">
-          <minExclusive value="0"></minExclusive>
-        </restriction>
-      </simpleType>
-    </attribute>
-    <attribute name="ticks" use="required">
-            <annotation>
-              <documentation>Number of ticks the fuel lasts (base value)</documentation>
-            </annotation>
-            <simpleType>
-        <restriction base="int">
-          <minExclusive value="0"></minExclusive>
-        </restriction>
-      </simpleType>
-    </attribute>
-  </complexType>
-  
-  <complexType name="hidingType">
-    <annotation>
-      <documentation>Configure which items/fluids should be hidden in JEI.</documentation>
-    </annotation>
-    <sequence>
-      <element name="config" type="enderio:configComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <choice maxOccurs="unbounded" minOccurs="1">
-        <element name="item" type="enderio:itemHidingType" minOccurs="1" maxOccurs="1"></element>
-        <element name="fluid" type="enderio:fluidHidingType" minOccurs="1" maxOccurs="1"></element>
-      </choice>
-    </sequence>
-  </complexType>
-
-  <complexType name="coolantType">
-    <annotation>
-      <documentation>A coolant for usage in the combustion generators.</documentation>
-    </annotation>
-    <sequence>
-      <element name="config" type="enderio:configComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-    </sequence>
-    <attribute name="fluid" type="string" use="required"></attribute>
-    <attribute name="amount" use="required">
-            <annotation>
-              <documentation>degreesCoolingPerMB (base value)</documentation>
-            </annotation>
-            <simpleType>
-              <restriction base="float">
-                <minExclusive value="0"></minExclusive>
-              </restriction>
-            </simpleType>
-    </attribute>
-  </complexType>
-
-  <complexType name="potionType">
-    <attribute name="potion" type="string" use="required">
-      <annotation>
-        <documentation>The resource ID of a potion.</documentation>
-      </annotation></attribute>
-  </complexType>
-
-  <complexType name="fluidHidingType">
-    <attribute name="name" type="string" use="required">
-      <annotation>
-        <documentation>The ID of a fluid.</documentation>
-      </annotation>
-    </attribute>
-    <attribute name="show" type="boolean" use="optional" default="false">
-      <annotation>
-        <documentation>An element will be hidden if:
-
-(1) there exists a configuration for it. Elements that are never configured will not be hidden.
-
-(2) There is no configuration that sets "show" to true OR
-
-(3) There is at least one configuration that sets "hide" to true.
-
-Ender IO itself will never set "hide" to true and will only use "show" internally. Modpack makers (and players) are expected to only use "hide" to hide stuff and use "show" to unhide stuff that Ender IO has hidden.</documentation>
-      </annotation></attribute>
-    <attribute name="hide" type="boolean" use="optional" default="false">
-      <annotation>
-        <documentation>An element will be hidden if:
-
-(1) there exists a configuration for it. Elements that are never configured will not be hidden.
-
-(2) There is no configuration that sets "show" to true OR
-
-(3) There is at least one configuration that sets "hide" to true.
-
-Ender IO itself will never set "hide" to true and will only use "show" internally. Modpack makers (and players) are expected to only use "hide" to hide stuff and use "show" to unhide stuff that Ender IO has hidden.</documentation>
-      </annotation></attribute>
-  </complexType>
-  <complexType name="itemHidingType">
-    <attribute use="required" name="name" type="enderio:ThingsString" />
-    <attribute name="show" type="boolean" use="optional" default="false">
-      <annotation>
-        <documentation>An element will be hidden if:
-
-(1) there exists a configuration for it. Elements that are never configured will not be hidden.
-
-(2) There is no configuration that sets "show" to true OR
-
-(3) There is at least one configuration that sets "hide" to true.
-
-Ender IO itself will never set "hide" to true and will only use "show" internally. Modpack makers (and players) are expected to only use "hide" to hide stuff and use "show" to unhide stuff that Ender IO has hidden.</documentation>
-      </annotation></attribute>
-    <attribute name="hide" type="boolean" use="optional" default="false">
-      <annotation>
-        <documentation>An element will be hidden if:
-
-(1) there exists a configuration for it. Elements that are never configured will not be hidden.
-
-(2) There is no configuration that sets "show" to true OR
-
-(3) There is at least one configuration that sets "hide" to true.
-
-Ender IO itself will never set "hide" to true and will only use "show" internally. Modpack makers (and players) are expected to only use "hide" to hide stuff and use "show" to unhide stuff that Ender IO has hidden.</documentation>
-      </annotation></attribute>
-  </complexType>
-  <complexType name="fluidType">
-    <attribute name="name" type="string" use="required">
-      <annotation>
-        <documentation>The ID of a fluid.</documentation>
-      </annotation>
-    </attribute>
-    <attribute name="nbt" type="string" use="optional">
-      <annotation>
-        <documentation>NBT for the fluid stack.</documentation>
-      </annotation></attribute>
-    <attribute name="amount" use="optional" default="1000">
-      <annotation>
-        <documentation>Amount of fluid in mB.</documentation>
-      </annotation>
-      <simpleType>
-        <restriction base="int">
-          <minInclusive value="0"></minInclusive>
-        </restriction>
-      </simpleType>
-    </attribute>
-  </complexType>
-  <complexType name="itemType">
-    <attribute use="optional" name="name" type="enderio:ThingsString" />
-    <attribute name="nbt" type="string" use="optional" />
-    <attribute name="potion" type="string" use="optional">
-      <annotation>
-        <documentation>The registry name of a potion effect. If this is given, a potion bottle with this effect is created. Cannot be used together with name or nbt.</documentation>
-      </annotation></attribute>
-  </complexType>
-  <simpleType name="ThingsString">
-        <annotation>
-          <documentation>A string that specifies one or more items, consisting of a comma-separated list of item specifiers. Specifiers may be prefixed with a "+" or "-", the latter removes that item from the list.
-
-If this is used as an input, all items in the list will be used. If it is used as an output, only the first one is used. The list can contain non-existing items as long as there also is at least one existing one.
-
-Each specifuer can be one of 4 things:
-
-(1) An alias, e.g. "IRON"
-
-(2) An oredict name, e.g. "ingotIron". Oredict names can be prefixed with "oredict:" to prevent confusion, e.g. "oredict:ingotIron"
-
-(3) The resource location of a block, e.g. "minecraft:stone". Block resource locations may be prefixed with "block:" to prevent confusion, e.g. "block:minecraft:stone". In recipes these will only work if that block has a corresponding item that is internally linked to the block.
-
-(4) The resource location of an item, e.g. "minecraft:iron_ingot". Item resource locations may be prefixed with "item:" to prevent confusion, e.g. "item:minecraft:iron_ingot". A number of items have blocks with the same name that are NOT linked, for them the "item:" prefix is required. Items can further be limited to specific meta values by postfixing with ":(number)", e.g. "item:minecraft:stone:3".
-
-</documentation>
-        </annotation>
-        <restriction base="string">
-      <pattern value="((\+|\-)?(([A-Z0-9_]+)|(((item:)?([a-z][a-z0-9_-]*:)?[a-z][a-z0-9_-]*(:(\*|\d+))?))|((block:)?([a-z][a-z0-9_-]*:)?[a-z][a-z0-9_-]*)|((oredict:)?[a-zA-Z][A-Za-z0-9_-]*)))(,\s*(\+|\-)?(([A-Z0-9_]+)|(((item:)?([a-z][a-z0-9_-]*:)?[a-z][a-z0-9_-]*(:(\*|\d+))?))|((block:)?([a-z][a-z0-9_-]*:)?[a-z][a-z0-9_-]*)|((oredict:)?[a-zA-Z][A-Za-z0-9_-]*)))*"></pattern>
-      <whiteSpace value="collapse"></whiteSpace>
-    </restriction>
-  </simpleType>
-
-</schema>
+                                                     )¢Òõdö©š:öiôıŞ,¬k¿ŸƒâÆØëõ2à7_fâCËâš0EUBMÌhÍ1¼r±rĞn{'4öR!c({Z¯EUáli	µU<ÊqÔôÜ‘6é¤ûñ&Ô1ãs>«1ôíï3qóP¤ã÷U|«3Ó«úèÚÊqt–Õvx¶q±Ëı×÷qp,8f*9n+Oªç¯q]Eà–¤CSs¶OğÁİq¹G÷ãÏìgm×Îo Ä§¯­"ëÏø/Ø¦(İ¿œ“³Şo~£®¸zUmáq÷
+®}Fú«ñ³@ïŸ(¦<cÁA]¸ª¦eÏå–'£šslùn³O’ÈÖæA Ni§vQ+jÂ¿)‘èœQ°R>ÜPèºŞ¥íau’+»nºê@w—MíÒd<óª5à\xüERÙ•áZºYU–—ŒËùQÛåŠ_±1O}p›Ú_Óº¿¼AYwˆH;"0¸‚6DPiØÌ!è-â`½Aò2Õ½A	¹ëÍ[DJµ”‡Â6…ø"|@Äi–éàç£¢ @è&üxã1Pæ=#
+@ ó“DŞs6ça†“MÃÕô ¤!ìÔˆÈC/Œ×AÚ&ˆ¹`zrúR­›S[«[CP™64º·5Æbî’ü]0×vAãt!a—‰~8é$“£ÒY›Cj³†«ph^6VB^ğîe’{.+?½„Œ50(“Àc9†`,7Ï¾É×, 1~’©ö "fìÉ.¦¨ö ,¤÷’©òÑå›ÈH GfvUÇ!E£4ôU.Hu}v€4€ n5‚6µı>TÂhjƒÄÇ-0áËP ù!¼B!†AÖ²^) ƒ}‹ä€¾‰û³¢Û|ø1È@O9d€.óI-4!X„ğÏZÌ"Üˆ°¢(çO£˜Òîºaè¡23PNÈr¶ö\¥:k¬{ˆM»¥'™~YÍ®\%¤­?Ö9Ãj{a¡VR§I½tŸTZ³R–]J‘ö‘*¶úWÒK¢°íÜF»ûË5>ÔÕ°ÄİH¹0ø&¹ìÇŸ©†’áÊ¸*Û©İÄZ¨¢t1?µØ]µ"P?iüzJƒ´Ô$lP(oD9òóÛ•Ú1ë0^ÿˆ›F	`CLE¢°¿?â¡UÄGıõ‚|#{ÂÊ…Ì€Và.ÏÃ–[Ø:[éÖÖ–6ò®z_³P•³—0íø@(C"!0Àğ©!M¯bg¾LB/ÅşÄú6i¥³›Œ°
+PÆÄÄâŸ€7ÁCáÿ£~qOŸÕ ½W/êó¯FŒ£§3|e]É¿ã½ó™M‹‹S¼’ÿF$Š!ˆüP&ßè|Mwœ"Ñó¾³_!$¯ìã§Åq˜Çmä•k¤8ê…ùkzÅ/U%Ÿ!jõÎ}6æöéÿ±q‘…Ü•}3¡{ÆÛFK3GšÎ|Jïƒ)¼,‹ú	4<dú&ò÷DéZ™êÑvÌr=TµÙÔµH-Èåğ	¯´ÓZÙøbK“ÉÛ¢hüR›îİh4èqå5`û‰'™¹nôÖÔ²Sµ7'&c3Æj§7aô\İšTo‰•F…?À)Tq¶Ê18ºù²1ù¥Ç¶Ö¡ i¦©ï…ºIƒCGe0Ÿ§ëô°jägØ£ß• CôK”ÉÛwÕUğ¨ØhÇš…w»ÀËÂïtÚü2 `  …Y›®VºşSï( H  úVdƒÿĞ
+#Œ£»Í²ÃçµovâÙ*Kh°«•ñüÖüÅÇ5"òc¦ÔVÎNæáí/“fï7òÜè=ƒîQN;ÙíÎö×GÕØ©/ÂFZqn“;Ó§geUI¤²9H	Hü_[F…l‚:2mÌüƒVì¿òG†šû’iƒè8:QtºC(³ÿ‡DR£ šÿJrŠ¡ß
+>x]¶RhcD1Q×Ô_;µzïyõJ–ö·ã„Šé×i•pj7Àø!ãb@|®¯5 ¥@‡nŞf´.,I‡õ+»dY–¬=#EZ6×:Wù ş5~áŸƒqÖ?ìÎâ„TÁ‘vë¢n¹ıÆ½ĞE.ó0Tëm¬8ï|‘ôQ©	§Nå˜‰;ŠX¤ñR»K¦‡·-|aÁvvŸ«¯šZ~‡G(V\ŸBMõÖç¥I`Ğ³x`à¨i,WÃòKÚİqÖx™í*i}Ç´ PVãÄ!ÂI‡ö½ì­€—õ ÆÍ“†¯”Ç^*	›n¶ÕJnq’®j%*d%{æ·U_/±^bÌöÄÉà7 0I~†rRã'5í>“ğ“8W[´Èí¿Ô¯UÂÙ<cc·sğ|ª{ŸÕa—èÛí1:½­&&:ïåƒ·q™s˜©^ñØC¶5ö´÷–´|‘µ’/tmp‡Ö’ÛÂY/ÙT÷Xë¶ÕS6a¿¹ûm.¬k‘™úÜÙ]å/z ”  A¿,fzvV{õG‰½Ù!ÎIplSï¢G–§Ãæ5)±Ì®hİ:Õ·z¡–ü8Ìíçåym29àÔpÆÇÂİšâ>T˜Ô½o)ĞÒ;Ú^8\ôtu÷9AåSø¢z§^;cg°…¸¥^¸ÃâSÎ;·=ì
+ÉeÖ3şBóyÌÜİQEgöŞÛ6™N`ç]öŸyj;pÊ_@¨¯#¢¸9÷Ìí2ùm2»órø95]T©~ƒà¦Únrà‹ËÔ?v½ŸM4Aú¢”k6ŸÙJÛ}Ú_/aU³šA¿l9‰ïem¾.^dìÜL£Å2ö²ÙŞ	s7íoÔSTòJùB›P;eÅªı4f(b„®áÃrg=©Î£z«ÀÎ„úb‡‡ıĞjCùõ™Ò_év™bÿòÉ˜ø0}©Xä²!™¿4Ş`’¨ª×Òù¬ gıÚbïò|Ôƒ®:ö÷âûŸs©Ám3~õÏ§*ÑSiÆ#’0ãïİxaæõõ#Ü=2ñ- x{š·æ×Ó¼úÉé~l^?õÖ](ù`¦ªh‰,M¹}Êòx];PiĞ9ı/êàb‰ÌmÔ°ãP!ö²§cpºr Ëh™°EÂ»;iË]zSÓZg=4ğ1Í[Kte¯ñ\':(Í›De½ÛR‰Y0œš$¦OTÔ&6®™O˜ÓS¤eÊ'cßÚM6tïşŠCW,PÎÔÓŒ±¹­í4Šæ >=	¿˜öƒdE<ƒí’_»Ï'ß jàˆÕ}nÖ‹Å]Bjï¸SRwÙU’Ûôl˜s‡=YÊù ‡„jÇ±k)©Ì¹ïî)Ğ@J4¿Mª ¸íà‘Á=õ_´-Æ ¡ã/é„=OŞÅïA$Š¨(O03aÈ?è£7ŒGøŠù7è ê³¾Ã×¬¥wÛ¦ßX¬ö£½îùJÊ4aë.f¶i.’çßW=–ı–¯‡pá6Ø~Ëä,g½İ±È îmwóŒ,Ób ı …äü~7Îc±ko “Ğ2|Z3›By…oJß@ÃY7~ß÷€øP\$ZE`ÓÂT„ (BoœÏZ°>¯(D¿øÈö>/$YH¬xÂ@¸AÑ‹Û¢öÔ}¤°£ƒf¥òeh¦	~Üºy!]y/ßÊ&
+÷isŞ®ıÍ¦ö«–¼íTRâj^•gôÒ™y16¸uI/¹õóìï&ì°æ—ÄvKx‘]ÒS›µe½ÕÈòÏõõü:ı§s´%jªÒ>ŒÀ„—ï»¿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v3">
+  <assemblyIdentity name="Microsoft-Windows-Client-Desktop-Required-WOW64-Package" version="10.0.18362.836" processorArchitecture="amd64" language="sv-SE" publicKeyToken="31bf3856ad364e35" buildType="release" />
+  <package identifier="Microsoft-Windows-Client-Desktop-Required-WOW64-Package" releaseType="Language Pack">
+    <parent disposition="detect" integrate="delegate">
+      <assemblyIdentity name="Microsoft-Windows-Client-Desktop-Required-WOW64-Package" version="10.0.18362.836" processorArchitecture="amd64" language="neutral" publicKeyToken="31bf3856ad364e35" buildType="release" />
+    </parent>
+    <update name="FFFB45F12E218256B755CC1068D46D3E81514763C936757683CAB68310139DC1">
+      <component>
+        <assemblyIdentity name="microsoft-windows-client-desktop-required-wow64-deployment0" version="10.0.18362.836" processorArchitecture="amd64" language="sv-SE" publicKeyToken="31bf3856ad364e35" buildType="release" versionScope="nonSxS" />
+      </component>
+    </update>
+    <update name="5865ED04B86FE446AF1050A7FEAF410E9584F817536B16551CA4BCF329C0DCF4">
+      <package integrate="hi
