@@ -1,0 +1,75 @@
+*GPDSpecVersion: "1.0"
+*GPDFileVersion: "1.0"
+*IsXPSDriver?: TRUE
+*CodePage: 1252
+*ModelName: "PrintDeviceCapabilities GPD"
+*PrinterType: PAGE
+*%%% Copyright (c) 1997-1999  Microsoft Corporation
+*%%% value macros for standard feature names and standard option names
+*%%% used in older Unidrv's.
+
+*CodePage: 1252      *% Windows 3.1 US (ANSI) code page
+
+*Feature: RESDLL
+{
+    *Name: "resource dll files"
+    *ConcealFromUI?: TRUE
+
+    *Option: UniresDLL
+    {
+        *Name: "unires.dll"
+    }
+}
+
+*Macros: StdFeatureNames
+{
+    ORIENTATION_DISPLAY:                RESDLL.UniresDLL.11100
+    PAPER_SIZE_DISPLAY:                 RESDLL.UniresDLL.11101
+    PAPER_SOURCE_DISPLAY:               RESDLL.UniresDLL.11102
+    RESOLUTION_DISPLAY:                 RESDLL.UniresDLL.11103
+    MEDIA_TYPE_DISPLAY:                 RESDLL.UniresDLL.11104
+    TEXT_QUALITY_DISPLAY:               RESDLL.UniresDLL.11105
+    COLOR_PRINTING_MODE_DISPLAY:        RESDLL.UniresDLL.11106
+    PRINTER_MEMORY_DISPLAY:             RESDLL.UniresDLL.11107
+    TWO_SIDED_PRINTING_DISPLAY:         RESDLL.UniresDLL.11108
+    PAGE_PROTECTION_DISPLAY:            RESDLL.UniresDLL.11109
+    HALFTONING_DISPLAY:                 RESDLL.UniresDLL.11110
+    OUTPUTBIN_DISPLAY:                  RESDLL.UniresDLL.11111
+    IMAGECONTROL_DISPLAY:               RESDLL.UniresDLL.11112
+    PRINTDENSITY_DISPLAY:               RESDLL.UniresDLL.11113
+    GRAPHICSMODE_DISPLAY:               RESDLL.UniresDLL.11114
+    TEXTHALFTONE_DISPLAY:               RESDLL.UniresDLL.11115
+    GRAPHICSHALFTONE_DISPLAY:           RESDLL.UniresDLL.11116
+    PHOTOHALFTONE_DISPLAY:              RESDLL.UniresDLL.11117
+}
+
+*Macros: StdPaperSizeNames
+{
+    RCID_DMPAPER_SYSTEM_NAME:               0x7fffffff
+    LETTER_DISPLAY:                         RESDLL.UniresDLL.10000
+    LETTERSMALL_DISPLAY:                    RESDLL.UniresDLL.10001
+    TABLOID_DISPLAY:                        RESDLL.UniresDLL.10002
+    LEDGER_DISPLAY:                         RESDLL.UniresDLL.10003
+    LEGAL_DISPLAY:                          RESDLL.UniresDLL.10004
+    STATEMENT_DISPLAY:                      RESDLL.UniresDLL.10005
+    EXECUTIVE_DISPLAY:                      RESDLL.UniresDLL.10006
+    A3_DISPLAY:                             RESDLL.UniresDLL.10007
+    A4_DISPLAY:                             RESDLL.UniresDLL.10008
+    A4SMALL_DISPLAY:                        RESDLL.UniresDLL.10009
+    A5_DISPLAY:                             RESDLL.UniresDLL.10010
+    B4_DISPLAY:                             RESDLL.UniresDLL.10011
+    B5_DISPLAY:                             RESDLL.UniresDLL.10012
+    FOLIO_DISPLAY:                          RESDLL.UniresDLL.10013
+    QUARTO:                                 RESDLL.UniresDLL.10014
+    10X14_DISPLAY:                          RESDLL.UniresDLL.10015
+    11X17_DISPLAY:                          RESDLL.UniresDLL.10016
+    NOTE_DISPLAY:                           RESDLL.UniresDLL.10017
+    ENV_9_DISPLAY:                          RESDLL.UniresDLL.10018
+    ENV_10_DISPLAY:                         RESDLL.UniresDLL.10019
+    ENV_11_DISPLAY:                             RESDLL.UniresDLL.10020
+    ENV_12_DISPLAY:                             RESDLL.UniresDLL.10021
+    ENV_14_DISPLAY:                             RESDLL.UniresDLL.10022
+    CSHEET_DISPLAY:                             RESDLL.UniresDLL.10023
+    DSHEET_DISPLAY:                             RESDLL.UniresDLL.10024
+    ESHEET_DISPLAY:                             RESDLL.UniresDLL.10025
+    ENV_DL_DISPLAY:                             RESDLL.UniresDLL.10026
