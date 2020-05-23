@@ -7,7 +7,6 @@ item.contenttweaker.Trinitrotoluene.name=Trinitrotoluene
 item.contenttweaker.astral_essence.name=Astral Essence
 
 fluid.titaniumTetrachloride.name=Titanium Tetrachloride
-<<<<<<< HEAD
 fluid.liquid_sunshiner.name=Liquid Sunshine
 fluid.void_liquid.name=Void Liquid
 fluid.nature_gas.name=Nature Gas
@@ -88,8 +87,6 @@ contenttweaker.material.Berylium=Berylium
 contenttweaker.material.Lithium=Lithium
 contenttweaker.material.Magnesium=Magnesium
 
-=======
->>>>>>> 40cb15c76dc953ced68d9346a84d3dc46f088fce
 
 tile.contenttweaker.gt_machine_0.name=Bronze Machine Block
 tile.contenttweaker.gt_machine_1.name=Steel Machine Block
