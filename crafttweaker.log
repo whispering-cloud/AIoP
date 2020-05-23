@@ -885,3 +885,156 @@ nuclearcraft_condenser
 [SERVER_STARTED][SERVER][INFO] errors = []
 [SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
 [SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] CloseWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] ReasonText :
+[SERVER_STARTED][SERVER][INFO] StatusCode : -1
+[SERVER_STARTED][SERVER][INFO] Http Request Received
+[SERVER_STARTED][SERVER][INFO] Connection : Upgrade
+[SERVER_STARTED][SERVER][INFO] Upgrade : websocket
+[SERVER_STARTED][SERVER][INFO] CrTWebSocketHandler added to the pipeline
+[SERVER_STARTED][SERVER][INFO] Opened Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] Handshaking....
+[SERVER_STARTED][SERVER][INFO] Req URI : /
+[SERVER_STARTED][SERVER][INFO] Constructed URL : ws://127.0.0.1:24532/
+[SERVER_STARTED][SERVER][INFO] Handshake is done
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+Potions:
+astralsorcery:potionspellplague -- color: 6816144 -- is bad effect -- PotionID: 100
+randomthings:imbue_fire -- color: -14336 -- is good effect -- PotionID: 29
+minecraft:levitation -- color: 13565951 -- is bad effect -- PotionID: 25
+cyclicmagic:potion.swimspeed -- color: 11827199 -- is good effect -- PotionID: 108
+immersiveengineering:stunned -- color: 6441624 -- is bad effect -- PotionID: 84
+minecraft:health_boost -- color: 16284963 -- is good effect -- PotionID: 21
+tconstruct:carry -- color: 16777215 -- is good effect -- PotionID: 44
+astralsorcery:potionbleed -- color: 7672320 -- is bad effect -- PotionID: 99
+extrabotany:healreverse -- color: 4915330 -- is bad effect -- PotionID: 97
+bloodmagic:cling -- color: 0 -- is good effect -- PotionID: 73
+minecraft:jump_boost -- color: 2293580 -- is good effect -- PotionID: 8
+biomesoplenty:curse -- color: 304618 -- is bad effect -- PotionID: 28
+bloodmagic:sacrificial_lamb -- color: 0 -- is good effect -- PotionID: 74
+thaumcraft:thaumarhia -- color: 6702199 -- is bad effect -- PotionID: 43
+quark:blue -- color: 255 -- is bad effect -- PotionID: 51
+nutrition:nourished -- color: 0 -- is good effect -- PotionID: 114
+bloodmagic:boost -- color: 16777215 -- is good effect -- PotionID: 63
+minecraft:hunger -- color: 5797459 -- is bad effect -- PotionID: 17
+immersiveengineering:concretefeet -- color: 6441624 -- is bad effect -- PotionID: 85
+minecraft:poison -- color: 5149489 -- is bad effect -- PotionID: 19
+extrabotany:eternity -- color: 14329120 -- is good effect -- PotionID: 88
+bloodmagic:bounce -- color: 0 -- is good effect -- PotionID: 72
+bloodmagic:soul_fray -- color: 16777215 -- is bad effect -- PotionID: 67
+thaumcraft:warpward -- color: 14742263 -- is good effect -- PotionID: 39
+bloodmagic:heavy_heart -- color: 0 -- is bad effect -- PotionID: 78
+minecraft:night_vision -- color: 2039713 -- is good effect -- PotionID: 16
+thaumcraft:deathgaze -- color: 6702131 -- is bad effect -- PotionID: 40
+thaumcraft:blurredvision -- color: 8421504 -- is bad effect -- PotionID: 41
+immersiveengineering:conductive -- color: 6881280 -- is bad effect -- PotionID: 82
+extrabotany:reflect -- color: 4286945 -- is good effect -- PotionID: 89
+cyclicmagic:potion.bounce -- color: 9561177 -- is good effect -- PotionID: 109
+minecraft:instant_health -- color: 16262179 -- is good effect -- PotionID: 6
+quark:danger_sight -- color: 575715 -- is good effect -- PotionID: 56
+randomthings:imbue_experience -- color: -256 -- is good effect -- PotionID: 31
+minecraft:strength -- color: 9643043 -- is good effect -- PotionID: 5
+tconstruct:dot -- color: 16777215 -- is bad effect -- PotionID: 49
+tconstruct:magnetic -- color: 16777215 -- is good effect -- PotionID: 47
+bloodmagic:plant_leech -- color: 0 -- is bad effect -- PotionID: 70
+astralsorcery:potioncheatdeath -- color: 16733969 -- is good effect -- PotionID: 98
+quark:curse -- color: 0 -- is bad effect -- PotionID: 55
+minecraft:speed -- color: 8171462 -- is good effect -- PotionID: 1
+minecraft:luck -- color: 3381504 -- is good effect -- PotionID: 26
+bloodmagic:planar_binding -- color: 0 -- is good effect -- PotionID: 65
+cyclicmagic:potion.butter -- color: 15066368 -- is good effect -- PotionID: 111
+cyclicmagic:potion.magnet -- color: 2247599 -- is good effect -- PotionID: 103
+minecraft:instant_damage -- color: 4393481 -- is bad effect -- PotionID: 7
+extrabotany:vegetable -- color: 64154 -- is good effect -- PotionID: 96
+minecraft:resistance -- color: 10044730 -- is good effect -- PotionID: 11
+thaumcraft:fluxtaint -- color: 6697847 -- is bad effect -- PotionID: 35
+extrabotany:bloodtemptation -- color: 14423100 -- is bad effect -- PotionID: 93
+tconstruct:momentum -- color: 16777215 -- is good effect -- PotionID: 48
+bloodmagic:whirlwind -- color: 16777215 -- is good effect -- PotionID: 64
+cyclicmagic:potion.snow -- color: 9355263 -- is good effect -- PotionID: 107
+minecraft:nausea -- color: 5578058 -- is bad effect -- PotionID: 9
+botania:bloodthirst -- color: 12779520 -- is good effect -- PotionID: 60
+minecraft:glowing -- color: 9740385 -- is good effect -- PotionID: 24
+tconstruct:insatiable -- color: 16777215 -- is bad effect -- PotionID: 46
+railcraft:creosote -- color: 13411072 -- is good effect -- PotionID: 124
+minecraft:weakness -- color: 4738376 -- is bad effect -- PotionID: 18
+thaumcraft:unnaturalhunger -- color: 4482611 -- is bad effect -- PotionID: 38
+immersiveengineering:flammable -- color: 9387807 -- is bad effect -- PotionID: 80
+minecraft:mining_fatigue -- color: 4866583 -- is bad effect -- PotionID: 4
+minecraft:invisibility -- color: 8356754 -- is good effect -- PotionID: 14
+randomthings:imbue_poison -- color: -16731648 -- is good effect -- PotionID: 30
+minecraft:wither -- color: 3484199 -- is bad effect -- PotionID: 20
+randomthings:imbue_collapse -- color: -20561 -- is good effect -- PotionID: 33
+bloodmagic:deafness -- color: 0 -- is bad effect -- PotionID: 71
+extrabotany:divinejustice -- color: 16744272 -- is good effect -- PotionID: 91
+immersiveengineering:flashed -- color: 6441624 -- is bad effect -- PotionID: 86
+tconstruct:enderference -- color: 2201695 -- is bad effect -- PotionID: 45
+tconstruct:splinter -- color: 16777215 -- is bad effect -- PotionID: 50
+minecraft:absorption -- color: 2445989 -- is good effect -- PotionID: 22
+botania:allure -- color: 13540 -- is good effect -- PotionID: 61
+bloodmagic:flight -- color: 0 -- is good effect -- PotionID: 75
+bloodmagic:feathered -- color: 0 -- is good effect -- PotionID: 79
+thaumcraft:visexhaust -- color: 6702199 -- is bad effect -- PotionID: 36
+thaumcraft:infectiousvisexhaust -- color: 6706551 -- is bad effect -- PotionID: 37
+randomthings:imbue_wither -- color: -16579837 -- is good effect -- PotionID: 32
+bloodmagic:constrict -- color: 0 -- is bad effect -- PotionID: 69
+quark:black -- color: 3158064 -- is bad effect -- PotionID: 52
+nutrition:toughness -- color: 0 -- is good effect -- PotionID: 113
+minecraft:haste -- color: 14270531 -- is good effect -- PotionID: 3
+extrabotany:temptation -- color: 0 -- is good effect -- PotionID: 94
+quark:resilience -- color: 5970436 -- is good effect -- PotionID: 54
+minecraft:water_breathing -- color: 3035801 -- is good effect -- PotionID: 13
+extrabotany:blacksabbath -- color: 0 -- is good effect -- PotionID: 92
+botania:soulcross -- color: 4670781 -- is good effect -- PotionID: 57
+cyclicmagic:potion.waterwalk -- color: 8370340 -- is good effect -- PotionID: 105
+bloodmagic:fire_fuse -- color: 16724787 -- is bad effect -- PotionID: 68
+immersiveengineering:sticky -- color: 10250240 -- is bad effect -- PotionID: 83
+minecraft:slowness -- color: 5926017 -- is bad effect -- PotionID: 2
+randomthings:collapse -- color: -20561 -- is bad effect -- PotionID: 34
+quark:white -- color: 13421772 -- is bad effect -- PotionID: 53
+adpother:respirator_effect -- color: -11776948 -- is good effect -- PotionID: 125
+botania:emptiness -- color: 16437247 -- is good effect -- PotionID: 59
+bloodmagic:soul_snare -- color: 16777215 -- is good effect -- PotionID: 66
+minecraft:saturation -- color: 16262179 -- is good effect -- PotionID: 23
+minecraft:regeneration -- color: 13458603 -- is good effect -- PotionID: 10
+astralsorcery:potiondropmodifier -- color: 16765204 -- is good effect -- PotionID: 101
+astralsorcery:potiontimefreeze -- color: 12098303 -- is good effect -- PotionID: 102
+bloodmagic:suspended -- color: 0 -- is good effect -- PotionID: 77
+extrabotany:witchcurse -- color: 0 -- is bad effect -- PotionID: 95
+minecraft:blindness -- color: 2039587 -- is bad effect -- PotionID: 15
+bloodmagic:grounded -- color: 0 -- is bad effect -- PotionID: 76
+botania:clear -- color: 16777215 -- is good effect -- PotionID: 62
+extrabotany:constantpain -- color: 8421504 -- is good effect -- PotionID: 90
+cyclicmagic:potion.frostwalker -- color: 4388055 -- is good effect -- PotionID: 110
+botania:featherfeet -- color: 2534911 -- is good effect -- PotionID: 58
+minecraft:unluck -- color: 12624973 -- is bad effect -- PotionID: 27
+extrabotany:mindcrack -- color: 9109643 -- is bad effect -- PotionID: 87
+cyclicmagic:potion.stunned -- color: 12764407 -- is good effect -- PotionID: 112
+immersiveengineering:slippery -- color: 1511427 -- is bad effect -- PotionID: 81
+minecraft:fire_resistance -- color: 14981690 -- is good effect -- PotionID: 12
+cyclicmagic:potion.ender -- color: 740674 -- is good effect -- PotionID: 104
+ic2:radiation -- color: 5149489 -- is bad effect -- PotionID: 0
+nutrition:malnourished -- color: 0 -- is good effect -- PotionID: 115
+cyclicmagic:potion.slowfall -- color: 16019232 -- is good effect -- PotionID: 106
+thaumcraft:sunscorned -- color: 16308330 -- is bad effect -- PotionID: 42
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}

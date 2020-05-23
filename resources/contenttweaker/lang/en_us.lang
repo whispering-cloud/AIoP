@@ -58,9 +58,34 @@ fluid.cacl2.name=Calcium Chloride
 fluid.sboh2.name=Antimony Hydroxide
 
 
+contenttweaker.part.crush_ore= %s Crushed Ore
+contenttweaker.part.grinded_ore= %s Grinded Ore
+contenttweaker.part.sieved_ore= %s Sieved Ore
+contenttweaker.part.washed_ore= %s Washed Ore
+contenttweaker.part.refined_one_ore= %s Pre Refined Ore
+contenttweaker.part.wet_ore= %s Wet Ore
+contenttweaker.part.concentrated_ore= %s Concentrated Ore
+contenttweaker.part.filtered_ore= %s Filtered Ore
+contenttweaker.part.refined_ore= %s Refined Ore
 
 
-
+contenttweaker.material.Chromium=Chromium
+contenttweaker.material.TungstenSteel=TungstenSteel
+contenttweaker.material.TungstenCarbon=TungstenCarbon
+contenttweaker.material.RefinedIron=RefinedIron
+contenttweaker.material.Tungsten=Tungsten
+contenttweaker.material.BlueSteel=BlueSteel
+contenttweaker.material.CoralSteel=CoralSteel
+contenttweaker.material.OldGold=OldGold
+contenttweaker.material.WoodHeart=WoodHeart
+contenttweaker.material.BloodSolid=BloodSolid
+contenttweaker.material.Flowerium=Flowerium
+contenttweaker.material.Astralimium=Astralimium
+contenttweaker.material.RedSteel=RedSteel
+contenttweaker.material.Aliasimium=Aliasimium
+contenttweaker.material.Berylium=Berylium
+contenttweaker.material.Lithium=Lithium
+contenttweaker.material.Magnesium=Magnesium
 
 
 tile.contenttweaker.gt_machine_0.name=Bronze Machine Block

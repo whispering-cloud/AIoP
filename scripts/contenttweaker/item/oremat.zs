@@ -11,7 +11,7 @@
 
 
 	var metal_list_name = ["monazite","galena","chromite","ferronickel","zinc","vanadinite","pitchblende","iridosmine","ilmenite",/*metal->*/"scheelite","coppers","irons","wolframite","bismuthinite","stibnite","magnesite","cassiterite","gummite","bauxite","lithore","uraninite"] as string[];
-	var part_names = ["dust","crush_ore","grinded_ore","sieved_ore","washed_ore","refined_one_ore","wet_ore","concentrated_ore","filtered_ore","refined_ore"] as string[];
+	var part_names = ["crush_ore","grinded_ore","sieved_ore","washed_ore","refined_one_ore","wet_ore","concentrated_ore","filtered_ore","refined_ore"] as string[];
     var ore_color = [""];
 
     val CurshOre=MaterialSystem.createPartType("crush_ore",function(materialPart){
