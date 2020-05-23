@@ -1,0 +1,18 @@
+item.contenttweaker.last_saplings.name=Last Saplings
+item.contenttweaker.Titaniumsponge.name=Titanium sponge
+item.contenttweaker.Yellowcake.name=Yellowcake
+item.contenttweaker.Vanadiumredcake.name=Vanadium redcake
+item.contenttweaker.vanadiumpentoxide.name=VanadiumPentoxide
+item.contenttweaker.Trinitrotoluene.name=Trinitrotoluene
+item.contenttweaker.astral_essence.name=Astral Essence
+
+fluid.titaniumTetrachloride.name=Titanium Tetrachloride
+
+tile.contenttweaker.gt_machine_0.name=Bronze Machine Block
+tile.contenttweaker.gt_machine_1.name=Steel Machine Block
+tile.contenttweaker.gt_machine_2.name=Stainless Machine Block
+tile.contenttweaker.gt_machine_3.name=Titanium Machine Block
+tile.contenttweaker.gt_machine_4.name=TungstenSteel Machine Block
+tile.contenttweaker.gt_fusion_1.name=Fusion case
+tile.contenttweaker.gt_fusion_2.name=Fusion coil
+tile.contenttweaker.pure_gyk.name=Pure GAIA Block

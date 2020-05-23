@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "c7h6n2o4"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

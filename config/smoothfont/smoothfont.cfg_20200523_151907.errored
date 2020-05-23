@@ -1,0 +1,247 @@
+# Configuration file
+
+~CONFIG_VERSION: 7
+
+common {
+    # Allow to use NPOT Texture in order to reduce resource consumption.
+    B:allowNPOTTexture=false
+
+    # Experimental: Try interpolation for MOD original font renderer.
+    B:alternativeInterpolation=false
+
+    # Automatic detection of brightness.
+    B:autoBrightness=true
+
+    # Enable a blur reduction for fonts less than or equal to the specified size.(0~16)
+    I:blurReduction=10
+
+    # Brightness correction level for interpolated fonts.
+    I:brightness=3
+
+    # This value is an option to adjust the rounding method of the character width that can be obtained by getCharWidth().
+    # The character widths are rounded up if the fractions of the character width are equal to or more than this fraction value.
+    # Other character widths are rounded down. (Default: 0.3333335)
+    D:charWidthFractionToRoundUp=0.3333335
+
+    # Disable italic for small fonts.
+    B:disableSmallItalic=false
+
+    # Enable alpha blending
+    B:enableAlphaBlend=true
+
+    # Enable anisotropic filtering.
+    B:enableAnisotropicFilter=true
+
+    # Enable double rendering
+    B:enableDouble=false
+
+    # Enable linear interpolation
+    B:enableInterpolation=true
+
+    # Enable mipmap for fonts.
+    B:enableMipmap=true
+
+    # Enable premultiplied alpha instead of straight alpha.
+    B:enablePremultipliedAlpha=false
+
+    # Disable interpolation for characters drawn with high magnification.
+    B:excludeHighMag=true
+
+    # Disable interpolation for the integral multiple of default size.
+    B:excludeIntMultiple=true
+
+    # Tolerance (in percent) for rounding font scale to integer.(Default: 0.5)
+    D:fontScaleRoundingTolerance=0.5
+
+    # Force to use unicode font.
+    B:forceUnicode=false
+
+    # Disable interpolation for fonts above this magnification when excludeHighMag is enabled.(Default: 3.0)
+    D:limitMagnification=3.0
+
+    # Mipmap level.
+    I:mipmapLevel=4
+
+    # Mipmap LOD bias.
+    I:mipmapLodBias=-3
+
+    # Mipmap LOD bias for overlay screen.
+    I:overlayLodBias=-5
+
+    # Prioritize performance rather than quality.
+    B:performanceMode=false
+
+    # Enable odd multiple GUI scale factors (x3,x5,...) when using unicode font.
+    B:removeScaleRestriction=true
+
+    # Select run mode. (0:Enable mod, 1:Disable mod, 2:Disable mod(Optimization only)
+    I:runMode=0
+
+    # To save memory and VRAM usage by adjusting some parameters when a large amount of memory or VRAM will be required.
+    # (0:off, 1:conservative, 2:moderate, 3:aggressive)
+    I:saveMemory=1
+
+    # Shadow length. (0~10)
+    I:shadowLength=5
+
+    # Shadows are rendered smoothly by using linear interpolation if the font resolution is more than or equal to this value.
+    I:smoothShadowThreshold=24
+
+    # Correct character width error in a normal precision mode as much as possible.
+    B:widthErrorCorrection=true
+}
+
+
+debug {
+    # Enable debug log.
+    B:debugLog=false
+
+    # Debug option
+    S:debugOption=
+
+    # Show event log on the game screen.
+    B:showLogInChat=false
+}
+
+
+font {
+    # Use the fonts installed in the operating system.
+    B:useOSFont=false
+
+    # Primary font name.
+    # (The font installed in the system or existing in the externalFontPaths folders (default:<minecraft dir>/fontfiles).)
+    S:fontName=SansSerif
+
+    # Secondary font name. It is used if the character cannot be rendered with the primary font.
+    # (The font installed in the system or existing in the externalFontPaths folders (default:<minecraft dir>/fontfiles).)
+    S:secondaryFontName=SansSerif
+
+    # Primary font style.(0:plain, 1:bold, 2:italic, 3:bold+italic)
+    I:primaryFontStyle=0
+
+    # Secondary font style.(0:plain, 1:bold, 2:italic, 3:bold+italic)
+    I:secondaryFontStyle=0
+
+    # Enable anti-alias for OS fonts.(0:off, 1:normal, 2:high precision)
+    I:fontAntiAlias=0
+
+    # Enable emphasis for OS fonts. (0:off, 1:Ascii only, 2:Non-Ascii, 3:All)
+    I:fontEmphasis=0
+
+    # OS font resolution. (0:8px, 1:10px, 2:12px, 3:16px, 4:24px, 5:32px, 6:48px, 7:64px)
+    I:fontResolution=3
+
+    # Enable automatic font size detection for the font resolution.
+    B:fontAutoSizing=true
+
+    # Reference characters used for font-sizing.
+    # If this option is not specified, the default value "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" is used.
+    S:fontSizingRefChars=
+
+    # Scaling factor of system font size.
+    D:fontSizeScaleFactor=1.0
+
+    # Transform non-default font narrowly or widely for MC default charset.
+    D:widthFactorDefaultCharset=1.0
+
+    # Transform non-default font narrowly or widely for unicode charset.
+    D:widthFactorUnicodeCharset=1.0
+
+    # Font gap.
+    I:fontGap=0
+
+    # Space width for system fonts.
+    # (0:space width specified by the primary font, 1~3:custom width, 4:Minecraft default width)
+    I:fontSpaceWidth=0
+
+    # Align baseline among different fonts.
+    B:fontAlignBaseline=true
+
+    # Target to replace fonts. (0:Exclude special fonts specified by mods, 1:All fonts)
+    I:fontTargetToReplace=0
+
+    # Internal state.
+    B:fontDetailList=false
+
+    # Margin around the glyph image.
+    I:glyphImageMargin=1
+}
+
+
+global {
+    # (Experimental) Initialize the mod asynchronously. It reduces initialization processing time.
+    B:asyncInitialization=true
+
+    # Disable font selection GUI only.
+    B:disableFontSelectionGui=false
+
+    # Disable In-Game configuration GUI.
+    B:disableInGameConfigGui=false
+
+    # Enable per-player configuration. (Settings in common category)
+    B:enablePerPlayerConfig=true
+
+    # Paths to font file folder. Default is "<Minecraft folder>/fontfiles"
+    S:externalFontsPaths <
+        fontfiles
+     >
+
+    # These font renderer classes use high precision font width.
+    # Best quality, but width calculation compatibility may slightly decreases
+    # in other font renderer other than the Minecraft default font renderer.
+    S:highPrecisionClasses <
+        net.minecraft.client.gui.FontRenderer
+     >
+
+    # High precision mode for MC standard font renderer is not used if these mods(mod ids) exist.
+    # This option is useful when there is a text wrapping problem with particular MODs or
+    # when there is an error in computing the text width.
+    # This option takes precedence over setMcRendererToHighPrecision option.
+    S:modsNotUsingHighPrecision <
+        betterquesting
+     >
+
+    # Minecraft standard font renderer object is always set to high precision even if it is replaced.
+    B:setMcRendererToHighPrecision=true
+
+    # Tweak the texture manager in order to make "Force LERP" function usable.
+    B:tweakLoadTexture=true
+
+    # Tweak the experience level rendering.
+    B:tweakRenderExperience=true
+
+    # Tweak the scaled resolution in order to make "Unlock Large GUI" function usable.
+    B:tweakScaledResolution=true
+
+    # These font renderer classes are not affected by this mod.
+    S:unaffectedClasses <
+        malte0811.industrialWires.client.panelmodel.RawModelFontRenderer
+     >
+
+    # These font renderer classes is most high compatibility with vanilla font width calculation,
+    # but the precision of font width calculation is more poorer than the other precision modes.
+    S:vanillaPrecisionClasses <
+     >
+
+    # Workaround for the broken font width of a mod. Some mods have an independent font renderer which
+    # directly refer charWidth/glyphWidth values of a MC standard font renderer in order to get the font
+    # width values of the Minecraft standard fonts or the resource pack fonts. If this workaround is true,
+    # charWidth and glyphWidth of the MC standard font renderer keep the font width values of the MC
+    # standard fonts or the resource pack fonts even if using the platform fonts.
+    # (ex. MalisisDoors(MalisisCore) needs this workaround.)
+    B:workaroundKeepOriginalWidthValues=true
+
+    # Workaround for transparent texts on a scoreboard.
+    B:workaroundTransparentScoreboard=true
+
+    # Workaround for the issue that Java8 cannot    ßµ|ElÕÌc½ÎXÒ!ï19Ì¯ŠäQXkÆÔä§_3¹«3ßöÆ1Ö¾Uá[‰Îf…gè°wG‰É‚5|®ı±ÿ†¨1·¶ÒÕF¨ÁU‰$ÆJõsæc—îíBq\Î¾ŸQÑ:hV#Y+ër^‹©#ºeÕ9Ç5Ø$L İíM¨2äM Ón4tÜL«8³Moù¡Àïf,‘÷Dãä½`8m¼ŸŠ„Z÷ '©EK$g³…]lxv›3ôƒ•®‹DİRyQDªT/îK±ûªñÒÕ‘2QÚÅ‹Ù¸~'„°fÄÓ"tcu9fîĞÛKQxĞôÀÈŠéèÃG£Ò Ü~´lµ²ÿõ¸SËcè_¿(%ˆûâ&Òü2 ìàSÈèD¶5£Kù„ÀxJ‹îTÜ4P?‹À3ï¥òDê~Eñ¤»yNÇTÔòZ¤,¥?%e_$è×.[ œ <œA´ç,NÃ™ÆR¾…¹»)S_¾òëİq~>	$µH¿¢n™‡ÙA¸Õ,Så,VZõ­Qã¶B|á	µSÿ±Ùßm"iÅÆÖ7KNÃí'$‘Îå@Ö…°Fr¸q^×PË^î…àëˆ˜Mq`Mú¸×ÕvîkÕ!’ñæy•å5êËÆsİùÛ9I.“'ƒZi–˜öX.ªÊ„äØxƒp.»´¾hİb&Bd26`aá]rr„¦1ùfÆ*c-«—rÏ_ÃSnÈùeMÕMz_7w«`#@¯õ*ÕÎŠ¤ã4ÊíhpÄ›ñÙˆ²a;ôå ²…s^ª ™<˜ ‡]Ó¶TJçÊíıò””{m™!î;½K¸ïvró¶5ó¯uVµğ½@ÿD¾Ò0¡ gÅ»b^/uş0¬=n“6wz{©_¸€S¦‘™|âÑÅÆaÓ¬©]aÅ}OAö
+fõ,¬	µC#<Ü”:8[İß"|C ¬ˆQï¢—Ì£{‘â4lĞ¦œä÷·4ƒØ…X!2wÂşL{õõ@tË	boÍF¢»ËÊ8ôÿ±g$…ˆ’VgUgªàNJ„Ôÿ%AÈ% à…íR´ÀøŠvoœ{³F[Všk’C oIXÎ†üi²â^ûè­ÒUFé®Â¡/ˆ¨t7‡@·z½ªÙ•Piú<ªŠŒ»îGr×/
+ƒ*vnŸ.
+u–CÄ°[G{¢&ë¸ 
+É°G$#[oxØ³mùÕûÄÖ&N¥:å³Ö0”uvñ“ã9D%W#VœD›‡âûwÒƒ1‹víäRÑ, dõZÂ¸Ò‚,„ÍÿjÊ`-çŒg<93&Œò“W§Îı€İëxÆÅYıM¥F¶+¨°„6[Ò`FŠ‚pMärLòÄâO÷	[€dÍy¨Ù
+Ş½:ºQ$‘•D¢\ğ—¨c²ôù4Pk³4ËŸ‘C–EŠĞQ®}fß -Œ(^V]Ú3†—a?* -éı“†bçZô#ÕqšwwÂ”T Šà³~•ı»Ÿ—©ÈZÀÚ2œ¤mü(şiœLÇúùÚÌ±p€Í‘‡€
+s!1˜æ)ìx;Å|Z³=cbuä¬øÔT’å,w(‡9·d¢j}ÖÉÃèEäœ
+ÑFoÎšX,v{®û‚¨şÛğ8Ú¯Û„&'şÏ=ûÑ·=Š“·]ì`‡(æÕlí¸ƒGğ®ïë›ûT±úm%ïw¼” Òx@~q†&BúŞ!`¨øX§ç”ÂéW÷xZ‚1¤Ö—dˆ’,‚YC‚½ÇÁT(Jü÷T®ú"¨Ë]¦8’è9U¶0#¼‚æ§…şçÖ­ÍpáÊHbÁÆàİ?nÔ£˜ª½8Åì.Â™(‰bœã$™OôôÔ‚»ö»û‚P¢P;¡'Œò‹Í+ŠW¼WB€É˜à¦Œb¨z¾Ö†UIÈV:5uu2£_.N’nı™³ñ1»^‚®VŒ²• 5ÎRƒŞ´WcÚæ˜spì§ÍèoTŒ¢ÌÉ¡óœ…«X+4_ğÏQŸÎ6÷hm!™Oİ:bC'ß¨Õ™¥ÀèTOÊ½w¯gËş½¦™‹è× y~%½‡©f?Š/ü?ÚôÏ´˜pE™Q4øknŒw$÷¨ŞÍ£û¬Ò_óTœñßG´`‘ÿâ7ÕCU¤Ç‘·ÒcV™B§·™ÉO$Ô¢Q¹°úÂ´?ö3M›$ÄD%ûFÄOÅáË³ß‹péP¼\k™“hšc«QÈ€8¸7xæà–›õQWD¢K?i‚±‘2nJ½ÍkB­¾°¯å)émècÖè‹(ETçV’ËÜ|°ÍÓr}ó½Pç÷…`>r_q[ÿh™ïÒ@DhHVƒúÖ:åá$.Ôø³¶•^SØı59ıÊ(B¿wĞ AS4‚^]8å"ĞøÏïx\µÅOÙ¦²¶ãêa6ü½HÙX$ÿ2a±³ì9`VwX›„W)Ó¦Í²Z›ÆGÉLTa×¥©AÒ\ÒğO2K@£.;·^Ş•90¹‡12eKˆ:Ÿšçá³¨+»ó92ê§íp¨E¾fyè`M<P|ö'~†:4Ñp²„`Ÿ`à‚¥	sš¶kï€ñ„Ô7“–\š¡9l'`Çy•µ°í*GŠbõW´Ñ@šÈ0GÎJÂËúÙ?N=–œ¸,S´n±ÈeİR6Ë&À–À9{ÿS¿”’é×`6[9ñt´j®7RÓDÄK¯¿¬Œ¾5EsÖP7í.;i¶ş¯ğŞ½Ÿ%ÍnV£3AyøíItÚW÷òYqñ€ÂŞ4%vdŒ'ÚöÕL]™8sçûx^²û~åõ“^˜Öv{0teã¨vµşä—v“˜(%¡£Tœ¼\i<’ªïûVéü¼Í=ø™İ&õ×	òÆv—›u¿~<Ä´Ço~o¤ËéR] a%GİŒ¡·(PtiOXÉ+Ø%œG"eKEà¬ê‚½ŒNãìäé Ñ@ Z×àGƒ-/\BáüXÍÇ)éc,×ÌBKÿB‰ŞœcBîu~şµe¹“É²®°)R*Á©ÆRcO¬–¨®å®€½t„ÿZó×©
+ÕKî/ñH-ÜK‹ß±±Jı6[Üëïa¸±‡÷!ÿQ‹A2¯Áæ¨½ÿ\(u=œt^'Å«G¶Èë2Å˜tKS%¥„Ä®şª=ø]üvñ´¹3âáŠ%íÏ Ø\ºõ;ÅŞ¹¸$½)aT˜o¨“D
+¢ÒŸ·âŠùè.öÉ\©Ø¹~H	ã1÷ÏaFmÑ'pÓ.µşª[Ö]ãÑöOÑ•åaµãyfÛçnŞ‰³Ô-å¼¥‘3Å<âßéÊ«vÉUAİòì¨¿7 øUg,¨ÄÒ©äÓ*6oêÆv	†éHPY50Y',ë·+ï¨¬\aêŒü18˜Ò<tG]J¤Ê2C…ràz!Æ‡ì¶p÷Q²šÎŸo#@ô8ótÀJ.§G²İ#•çh¶Yç¥’°åˆËÚ(fšWo(ôFBÒ0a¬¬oÖàEŒ˜Âjéºt C¤¢
+ô…FXğd8Üîz(*]ùæ.“è7FvMß£9/7§ïˆlò¤™Òÿt¾€ÜŒÈ&Ÿ—xçpÀ%Ê‰9ë1Ü'·‚‘ŸÔı¨À°\vcjÈpü4>#5O$;ÒÜ4â5Z–ç¥£€< xsÖ}Êê«IöğßâÜC»Ö×‹K<4ƒæ‚¦¶b¨3uP>ùŠšü	îîı¹3O$›s…‰º`_®XRëë!áˆaX'ÉÄªbD(Â¥?N“ToùıP‘Ş|Llmªór´ö;8ì:Æ›ÍP\- YÒp$Û™ûA

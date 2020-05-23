@@ -1,0 +1,131 @@
+{
+  "coal": {
+    "minY": 8,
+    "maxY": 78,
+    "chance": 8,
+    "size": 64,
+    "blacklist": [
+      -1,
+      1
+    ]
+  },
+  "cinnabar": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "gold": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "lapis": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "quartz": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "kimberlite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "beryl": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "hematite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "limonite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "malachite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "azurite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "cassiterite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "teallite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "galena": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "bauxite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "platinum": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "autunite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  },
+  "sphalerite": {
+    "minY": 0,
+    "maxY": 0,
+    "chance": 0,
+    "size": 0,
+    "blacklist": []
+  }
+}
