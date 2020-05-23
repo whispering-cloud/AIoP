@@ -1038,3 +1038,33 @@ thaumcraft:sunscorned -- color: 16308330 -- is bad effect -- PotionID: 42
 [SERVER_STARTED][SERVER][INFO] errors = []
 [SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
 [SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x56660cc2, L:/127.0.0.1:24532 - R:/127.0.0.1:50194]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
