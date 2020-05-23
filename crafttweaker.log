@@ -37,57 +37,7 @@
 [PREINITIALIZATION][CLIENT][INFO] initialized block.zs
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluid.zs}
 [PREINITIALIZATION][CLIENT][INFO] Initializing fluid.zs
-[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker]: Error executing {[3000:contenttweaker]: contenttweaker\fluid.zs}: Array index out of range: 50
-java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 50
-	at contenttweaker\Fluid.__script__(contenttweaker\fluid.zs:125)
-	at __ZenMain__.run(contenttweaker\Fluid)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:100)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:78)
-	at com.teamacronymcoders.contenttweaker.ContentTweaker.afterModuleHandlerInit(ContentTweaker.java:45)
-	at com.teamacronymcoders.base.BaseModFoundation.preInit(BaseModFoundation.java:112)
-	at com.teamacronymcoders.contenttweaker.ContentTweaker.preInit(ContentTweaker.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
-	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
-	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
-	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
-	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
-	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
-	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
-	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
-	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
-	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
-	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[PREINITIALIZATION][CLIENT][INFO] Initialized fluid.zs
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\food.zs}
 [PREINITIALIZATION][CLIENT][INFO] Initializing food.zs
 [PREINITIALIZATION][CLIENT][INFO] Initialized food.zs
@@ -96,12 +46,38 @@ java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 50
 [PREINITIALIZATION][CLIENT][INFO] Initialized item.zs
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\material.zs}
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\oremat.zs}
-[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker]: Error executing {[3000:contenttweaker]: contenttweaker\item\oremat.zs}: For input string: "monazite"
-java.lang.NumberFormatException: For input string: "monazite"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at contenttweaker\item\Oremat.__script__(contenttweaker\item\oremat.zs:44)
+[PREINITIALIZATION][CLIENT][ERROR] [contenttweaker]: Error executing {[3000:contenttweaker]: contenttweaker\item\oremat.zs}: JVMVRFY012 堆栈形状不一致；类=contenttweaker\item\Oremat，方法=__script__()V，pc=220；类型不匹配，签名 crafttweaker/zenscript/expand/ExpandString.asFormattedText:(Ljava/lang/String;)Lcrafttweaker/api/formatting/IFormattedText; 中的参数 0 不匹配
+Exception Details:
+  Location:
+    contenttweaker\item\Oremat.__script__()V @220: JBinvokestatic
+  Reason:
+    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[3]) is not assignable to 'java/lang/String'
+  Current Frame:
+    bci: @220
+    flags: { }
+    locals: { top, '[Ljava/lang/String;', top, '[Ljava/lang/String;' }
+    stack: { '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
+  Stackmap Table:
+    full_frame(@217,{top,Object[#105],top,Object[#105]},{Object[#106],Object[#106],integer,Object[#64]})
+    full_frame(@220,{top,Object[#105],top,Object[#105]},{Object[#106],Object[#106],integer,Object[#65]})
+    full_frame(@356,{top,Object[#105],top,Object[#105],top,Object[#106],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,top,integer},{Object[#105]})
+    same_locals_1_stack_item_frame_extended(@474,Object[#105])
+java.lang.VerifyError: JVMVRFY012 堆栈形状不一致；类=contenttweaker\item\Oremat，方法=__script__()V，pc=220；类型不匹配，签名 crafttweaker/zenscript/expand/ExpandString.asFormattedText:(Ljava/lang/String;)Lcrafttweaker/api/formatting/IFormattedText; 中的参数 0 不匹配
+Exception Details:
+  Location:
+    contenttweaker\item\Oremat.__script__()V @220: JBinvokestatic
+  Reason:
+    Type 'stanhebben/zenscript/value/IAny' (current frame, stack[3]) is not assignable to 'java/lang/String'
+  Current Frame:
+    bci: @220
+    flags: { }
+    locals: { top, '[Ljava/lang/String;', top, '[Ljava/lang/String;' }
+    stack: { '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, 'stanhebben/zenscript/value/IAny' }
+  Stackmap Table:
+    full_frame(@217,{top,Object[#105],top,Object[#105]},{Object[#106],Object[#106],integer,Object[#64]})
+    full_frame(@220,{top,Object[#105],top,Object[#105]},{Object[#106],Object[#106],integer,Object[#65]})
+    full_frame(@356,{top,Object[#105],top,Object[#105],top,Object[#106],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,Object[#107],top,top,integer},{Object[#105]})
+    same_locals_1_stack_item_frame_extended(@474,Object[#105])
 	at __ZenMain__.run(contenttweaker\item\Oremat)
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
 	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:96)
@@ -173,7 +149,7 @@ java.lang.NumberFormatException: For input string: "monazite"
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:crafttweaker]: crafttweaker\NormalLand\vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-100:crafttweaker]: template.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[-150:crafttweaker]: crafttweaker\globalEvents\worldcrafting.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 734ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 614ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
@@ -208,12 +184,7 @@ java.lang.NumberFormatException: For input string: "monazite"
 [INITIALIZATION][CLIENT][INFO] Setting max damage of  Stone Chisel to 64
 [INITIALIZATION][CLIENT][INFO] Translating item.flintAndSteel.name to Astral Flint
 [INITIALIZATION][CLIENT][INFO] Translating item.itemusabledust.illumination.name to Astral dust
-[INITIALIZATION][CLIENT][INFO] Liquid <liquid:astralfmk2> has not been found, trying to use a ghost representative. This message will only be printed once, all subsequent missing fluids will be handled the same way.
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk4>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
 [INITIALIZATION][CLIENT][INFO] Translating item.itemusabledust.nocturnal.name to Mystical Dust
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
 [INITIALIZATION][CLIENT][INFO] Initialized AS.zs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\botania.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing botania.zs
@@ -241,56 +212,9 @@ java.lang.NumberFormatException: For input string: "monazite"
 [INITIALIZATION][CLIENT][INFO] Initialized liquid_sun_collector.zs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\mana_extractors.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing mana_extractor.zs
-[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[-100:crafttweaker]: crafttweaker\NormalLand\MM\mana_extractors.zs}: For input string: "MagicForest"
-java.lang.NumberFormatException: For input string: "MagicForest"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at crafttweaker\NormalLand\MM\Mana_extractors.__script__(crafttweaker\NormalLand\MM\mana_extractors.zs:13)
-	at __ZenMain__.run(crafttweaker\NormalLand\MM\Mana_extractors)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
-	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
-	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1323_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
-	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:636)
-	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747)
-	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
-	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-	at net.minecraft.client.main.Main.main(SourceFile:123)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] Initialized mana_extractor.zs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\passive_astralf.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing passive_astralf.zs
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk3>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk3>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk3>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk3>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk4>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk4>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk4>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk5>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk5>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk6>
 [INITIALIZATION][CLIENT][INFO] Initialized passive_astralf.zs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\tntbug.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing tntbug.zs
@@ -380,12 +304,6 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [INITIALIZATION][CLIENT][INFO] Initialized randomT.zs
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\tic.zs}
 [INITIALIZATION][CLIENT][INFO] Initializing tic.zs
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk1>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk2>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk3>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk4>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk5>
-[INITIALIZATION][CLIENT][ERROR] Trying to access Ghost liquid before its ready: <liquid:astralfmk6>
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <tconstruct:cast_custom>: "Craftable by crafting Alubrass ingot"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <tconstruct:ingots:5>: "Craftable"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <tconstruct:soil>: "throw into the Astral Fluid MK1 to turn it into seared bricks"
@@ -405,7 +323,7 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <contenttweaker:material_part:68>: "crafted by explode the woods"
 [INITIALIZATION][CLIENT][INFO] Adding tooltip for <tconstruct:materials>: "crafted by throwing the soil into the Astral Fluid MK1"
 [INITIALIZATION][CLIENT][INFO] Initialized worldcrafting.zs
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 701ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 562ms
 [INITIALIZATION][CLIENT][INFO] Translating item.chisel.chisel_iron.name to Stone Chisel
 [INITIALIZATION][CLIENT][INFO] Translating item.flintAndSteel.name to Astral Flint
 [INITIALIZATION][CLIENT][INFO] Translating item.itemusabledust.illumination.name to Astral dust
@@ -413,7 +331,7 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 星辉合成台 with name ct_shaped-841099392
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 共鸣星杖 with name ct_shaped-843168388
-[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.chisel.chisel_iron with name ct_shaped-334683944
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for item.chisel.chisel_iron with name ct_shaped-1766678251
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 基础工作台 with name ECI
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 焦炉砖 with name cokeBri
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 工程师锤 with name iehammer
@@ -449,12 +367,12 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingrock>
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <botania:livingwood>
 [AVAILABLE][CLIENT][INFO] Adding 1 Botania PureDaisy Recipe(s) for <contenttweaker:pure_gyk>
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
-[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:water> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk1> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk2> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk3> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk4> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk5> * 20
+[AVAILABLE][CLIENT][INFO] Altering Fuel Recipe(s) for <liquid:astralfmk6> * 20
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:water_freezer>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:water_spreader>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:wand_missile>
@@ -470,184 +388,500 @@ java.lang.ClassCastException: net.minecraft.nbt.NBTTagString incompatible with n
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:heart_food>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:block_miner_smart>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <cyclicmagic:tool_elevate>
-Biomes:
--minecraft:ocean	Ocean
--minecraft:plains	Plains
--minecraft:desert	Desert
--minecraft:extreme_hills	Extreme Hills
--minecraft:forest	Forest
--minecraft:taiga	Taiga
--minecraft:swampland	Swampland
--minecraft:river	River
--minecraft:hell	Hell
--minecraft:sky	The End
--minecraft:frozen_ocean	FrozenOcean
--minecraft:frozen_river	FrozenRiver
--minecraft:ice_flats	Ice Plains
--minecraft:ice_mountains	Ice Mountains
--minecraft:mushroom_island	MushroomIsland
--minecraft:mushroom_island_shore	MushroomIslandShore
--minecraft:beaches	Beach
--minecraft:desert_hills	DesertHills
--minecraft:forest_hills	ForestHills
--minecraft:taiga_hills	TaigaHills
--minecraft:smaller_extreme_hills	Extreme Hills Edge
--minecraft:jungle	Jungle
--minecraft:jungle_hills	JungleHills
--minecraft:jungle_edge	JungleEdge
--minecraft:deep_ocean	Deep Ocean
--minecraft:stone_beach	Stone Beach
--minecraft:cold_beach	Cold Beach
--minecraft:birch_forest	Birch Forest
--minecraft:birch_forest_hills	Birch Forest Hills
--minecraft:roofed_forest	Roofed Forest
--minecraft:taiga_cold	Cold Taiga
--minecraft:taiga_cold_hills	Cold Taiga Hills
--minecraft:redwood_taiga	Mega Taiga
--minecraft:redwood_taiga_hills	Mega Taiga Hills
--minecraft:extreme_hills_with_trees	Extreme Hills+
--minecraft:savanna	Savanna
--minecraft:savanna_rock	Savanna Plateau
--minecraft:mesa	Mesa
--minecraft:mesa_rock	Mesa Plateau F
--minecraft:mesa_clear_rock	Mesa Plateau
--biomesoplenty:gravel_beach	Gravel Beach
--biomesoplenty:white_beach	White Beach
--biomesoplenty:origin_beach	Origin Beach
--biomesoplenty:alps	Alps
--biomesoplenty:bamboo_forest	Bamboo Forest
--biomesoplenty:bayou	Bayou
--biomesoplenty:bog	Bog
--biomesoplenty:boreal_forest	Boreal Forest
--biomesoplenty:brushland	Brushland
--biomesoplenty:chaparral	Chaparral
--biomesoplenty:cherry_blossom_grove	Cherry Blossom Grove
--biomesoplenty:cold_desert	Cold Desert
--biomesoplenty:coniferous_forest	Coniferous Forest
--biomesoplenty:crag	Crag
--biomesoplenty:dead_forest	Dead Forest
--biomesoplenty:dead_swamp	Dead Swamp
--biomesoplenty:eucalyptus_forest	Eucalyptus Forest
--biomesoplenty:fen	Fen
--biomesoplenty:flower_field	Flower Field
--biomesoplenty:grassland	Grassland
--biomesoplenty:grove	Grove
--biomesoplenty:highland	Highland
--biomesoplenty:land_of_lakes	Land of Lakes
--biomesoplenty:lavender_fields	Lavender Fields
--biomesoplenty:lush_desert	Lush Desert
--biomesoplenty:lush_swamp	Lush Swamp
--biomesoplenty:mangrove	Mangrove
--biomesoplenty:maple_woods	Maple Woods
--biomesoplenty:marsh	Marsh
--biomesoplenty:meadow	Meadow
--biomesoplenty:moor	Moor
--biomesoplenty:mountain	Mountain
--biomesoplenty:mystic_grove	Mystic Grove
--biomesoplenty:ominous_woods	Ominous Woods
--biomesoplenty:orchard	Orchard
--biomesoplenty:outback	Outback
--biomesoplenty:overgrown_cliffs	Overgrown Cliffs
--biomesoplenty:prairie	Prairie
--biomesoplenty:quagmire	Quagmire
--biomesoplenty:rainforest	Rainforest
--biomesoplenty:redwood_forest	RedwoodForest
--biomesoplenty:sacred_springs	Sacred Springs
--biomesoplenty:seasonal_forest	Seasonal Forest
--biomesoplenty:shield	Shield
--biomesoplenty:shrubland	Shrubland
--biomesoplenty:snowy_coniferous_forest	Snowy Coniferous Forest
--biomesoplenty:snowy_forest	Snowy Forest
--biomesoplenty:steppe	Steppe
--biomesoplenty:temperate_rainforest	Temperate Rainforest
--biomesoplenty:tropical_rainforest	Tropical Rainforest
--biomesoplenty:tundra	Tundra
--biomesoplenty:wasteland	Wasteland
--biomesoplenty:wetland	Wetland
--biomesoplenty:woodland	Woodland
--biomesoplenty:xeric_shrubland	Xeric Shrubland
--biomesoplenty:alps_foothills	AlpsFoothills
--biomesoplenty:mountain_foothills	MountainFoothills
--biomesoplenty:redwood_forest_edge	RedwoodForestEdge
--biomesoplenty:pasture	Pasture
--biomesoplenty:glacier	Glacier
--biomesoplenty:oasis	Oasis
--biomesoplenty:snowy_tundra	SnowyTundra
--biomesoplenty:coral_reef	Coral Reef
--biomesoplenty:kelp_forest	Kelp Forest
--biomesoplenty:origin_island	Origin Island
--biomesoplenty:tropical_island	Tropical Island
--biomesoplenty:volcanic_island	Volcanic Island
--biomesoplenty:flower_island	Flower Island
--biomesoplenty:corrupted_sands	Corrupted Sands
--biomesoplenty:fungi_forest	Fungi Forest
--biomesoplenty:phantasmagoric_inferno	Phantasmagoric Inferno
--biomesoplenty:undergarden	Undergarden
--biomesoplenty:visceral_heap	Visceral Heap
--randomthings:spectral	Spectral
--appliedenergistics2:storage_biome	Storage Cell
--thaumcraft:magical_forest	Magical Forest
--thaumcraft:eerie	Eerie
--thaumcraft:eldritch	Outer Lands
--integrateddynamics:biome_meneglin	门勒格林
--nuclearcraft:nuclear_wasteland	Nuclear Wasteland
--advancedrocketry:moon	Moon
--advancedrocketry:alien forest	Alien Forest
--advancedrocketry:hotdryrock	HotDryRock
--advancedrocketry:space	Space
--advancedrocketry:stormland	Stormland
--advancedrocketry:crystalchasms	CrystalChasms
--advancedrocketry:deepswamp	DeepSwamp
--minecraft:void	The Void
--advancedrocketry:marsh	Marsh
--minecraft:mutated_plains	Sunflower Plains
--minecraft:mutated_desert	Desert M
--minecraft:mutated_extreme_hills	Extreme Hills M
--minecraft:mutated_forest	Flower Forest
--minecraft:mutated_taiga	Taiga M
--minecraft:mutated_swampland	Swampland M
--advancedrocketry:oceanspires	OceanSpires
--advancedrocketry:moondark	MoonDark
--advancedrocketry:volcanic	Volcanic
--advancedrocketry:volcanicbarren	VolcanicBarren
--minecraft:mutated_ice_flats	Ice Plains Spikes
--minecraft:mutated_jungle	Jungle M
--minecraft:mutated_jungle_edge	JungleEdge M
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [preinit]
+[SERVER_STARTED][SERVER][INFO] Started ZsLint Socket lint on Port 24532
+creativetab:
+<creativetab:buildingBlocks>
+<creativetab:decorations>
+<creativetab:redstone>
+<creativetab:transportation>
+<creativetab:hotbar>
+<creativetab:search>
+<creativetab:misc>
+<creativetab:food>
+<creativetab:tools>
+<creativetab:combat>
+<creativetab:brewing>
+<creativetab:inventory>
+<creativetab:IC2>
+<creativetab:multiBlock>
+<creativetab:advancedRocketryOres>
+<creativetab:advancedRocketry>
+<creativetab:draconicevolution>
+<creativetab:draconicevolution>
+<creativetab:architecture.tool>
+<creativetab:architecture.shape>
+<creativetab:avaritia>
+<creativetab:avaritiatweaks>
+<creativetab:cyclicmagic>
+<creativetab:bloodmagic.creativeTab>
+<creativetab:bloodmagic.creativeTabTome>
+<creativetab:compactmachines3>
+<creativetab:cookingforblockheads>
+<creativetab:darkutils>
+<creativetab:deepmoblearning>
+<creativetab:deepmoblearningbm>
+<creativetab:emberroot>
+<creativetab:valkyrielib.tab>
+<creativetab:environmentalmaterials.em_tab>
+<creativetab:environmentaltech.et_resources>
+<creativetab:environmentaltech.et_controllers>
+<creativetab:environmentaltech.et_multiblock_components>
+<creativetab:environmentaltech.et_other>
+<creativetab:tabMekanism>
+<creativetab:immersiveengineering>
+<creativetab:exchangers>
+<creativetab:exNihilo>
+<creativetab:excompressum>
+<creativetab:extendedcrafting>
+<creativetab:extrautils2>
+<creativetab:ftbquests>
+<creativetab:hammercore>
+<creativetab:immersivepetroleum>
+<creativetab:immersivetech>
+<creativetab:tesla_core_lib>
+<creativetab:industrialforegoing>
+<creativetab:harvestcraft>
+<creativetab:jaopca>
+<creativetab:threng>
+<creativetab:packagedauto>
+<creativetab:packagedexcrafting>
+<creativetab:pollutantpump>
+<creativetab:SonarCore>
+<creativetab:projectex>
+<creativetab:simple_trophies>
+<creativetab:simplyjetpacks>
+<creativetab:TinkerIO_Tabs>
+<creativetab:TinkerGeneral>
+<creativetab:TinkerTools>
+<creativetab:TinkerToolParts>
+<creativetab:TinkerSmeltery>
+<creativetab:TinkerWorld>
+<creativetab:TinkerGadgets>
+<creativetab:adchimneys>
+<creativetab:appliedenergistics2>
+<creativetab:appliedenergistics2.facades>
+<creativetab:bdew.ae2stuff>
+<creativetab:thermalseriesBlocks>
+<creativetab:thermalseriesItems>
+<creativetab:thermalseriesUtils>
+<creativetab:thermalseriesTools>
+<creativetab:thermalseriesMisc>
+<creativetab:projecte>
+<creativetab:astralsorcery>
+<creativetab:astralsorcery.papers>
+<creativetab:astralsorcery.crystals>
+<creativetab:botania>
+<creativetab:BiblioCraft>
+<creativetab:BiblioCraftLights>
+<creativetab:tabBiomesOPlenty>
+<creativetab:computercraft>
+<creativetab:chiselsandbits>
+<creativetab:chiselsandbits.Clipboard>
+<creativetab:materials.base>
+--- JEI Categories ---
+minecraft.crafting
+minecraft.fuel
+minecraft.smelting
+minecraft.brewing
+minecraft.anvil
+forestry.bottler
+forestry.carpenter
+forestry.centrifuge
+forestry.fabricator
+forestry.fermenter
+forestry.moistener
+forestry.rainmaker
+forestry.squeezer
+forestry.still
+tconstruct.smeltery
+tconstruct.alloy
+tconstruct.casting_table
+tconstruct.dryingrack
+sludge_refiner_category
+bioreactor_accepted_items
+protein_reactor_accepted_items
+laser_category
+machine_produce_category
+petrified_burn_time
+fluid_dictionary
+stone_work_factory
+EXTRACTOR_RECIPE
+if_manual_category
+ORE_WASHER
+ORE_FERMENTER
+ORE_SIEVE
+deepmoblearning.simulation_chamber
+deepmoblearning.extraction_chamber
+deepmoblearning.trial_keystone
+deepmoblearningbm.digital_agonizer
+deepmoblearningbm.digital_agonizer_catalyst
+bloodmagic:altar
+bloodmagic:binding
+bloodmagic:alchemyArray
+bloodmagic:soulForge
+bloodmagic:salchemyTable
+bloodmagic:armourDowngrade
+forestry.farming
+cookingforblockheads.cowjar
+tinker_io:ore_crusher
+tinker_io:smart_output
+tinker_io:fuel_input_machine
+jehc.presser
+jehc.shippingbin
+jehc.market
+jehc.apiary
+jehc.ground_trap
+jehc.water_trap
+jehc.grinder
+jehc.waterfilter
+VILLAGER_TRADE_CATEGORY
+it.distiller
+it.boiler
+it.solarTower
+railcraft.rolling
+railcraft.coke
+railcraft.rock.crusher
+railcraft.blast.furnace
+ie.cokeoven
+ie.alloysmelter
+ie.blastfurnace
+ie.blastfurnace.fuel
+ie.metalPress
+ie.crusher
+ie.workbench
+ie.squeezer
+ie.fermenter
+ie.refinery
+ie.arcFurnace
+ie.arcFurnace.recycling
+ie.bottlingMachine
+ie.mixer
+forestry.charcoal.pile
+Imbuing
+chisel.chiseling
+extendedcrafting:table_crafting_7x7
+extendedcrafting:table_crafting_9x9
+extendedcrafting:compressor
+extendedcrafting:ender_crafting
+excompressum:heavySieve
+excompressum:compressedHammer
+excompressum:woodenCrucible
+excompressum:chickenStick
+actuallyadditions.coffee
+actuallyadditions.compost
+actuallyadditions.crushing
+actuallyadditions.reconstructor
+actuallyadditions.empowerer
+actuallyadditions.booklet
+extrabotany.pedestal
+hydrator
+packager
+dehydrator
+melter
+solidifier
+compactmachines3.MultiblockMiniaturization
+exnihilocreatio:sieve
+exnihilocreatio:hammer
+exnihilocreatio:crook
+exnihilocreatio:fluid_on_top
+exnihilocreatio:fluid_transform
+exnihilocreatio:fluid_block_transform
+exnihilocreatio:compost
+exnihilocreatio:crucible_wood
+exnihilocreatio:crucible_stone
+exnihilocreatio:heat_sources
+Painter
+immersivepetroleum.distillation
+jeresources.plant
+jeresources.worldgen
+jeresources.mob
+jeresources.enchantment
+jeresources.dungeon
+jeresources.villager
+inworldcrafting.itemtransform
+inworldcrafting.exploding_blocks
+THAUMCRAFT_ARCANE_WORKBENCH
+THAUMCRAFT_CRUCIBLE
+THAUMCRAFT_INFUSION
+THAUMCRAFT_ASPECT_COMPOUND
+THAUMCRAFT_ASPECT_FROM_ITEMSTACK
+bonsaitrees.Growing
+botania.brewery
+botania.pureDaisy
+botania.runicAltar
+botania.petals
+botania.elvenTrade
+botania.manaPool
+botania.orechid
+botania.orechid_ignem
+infinityPowder
+thermaldynamics.covers
+Avatitia.Extreme
+Avatitia.Compressor
+mekanism.chemicalcrystallizer
+mekanism.chemicaldissolutionchamber
+mekanism.chemicalinfuser
+mekanism.chemicaloxidizer
+mekanism.chemicalwasher
+mekanism.electrolyticseparator
+mekanism.metallurgicinfuser
+mekanism.pressurizedreactionchamber
+mekanism.rotary_condensentrator_condensentrating
+mekanism.rotary_condensentrator_decondensentrating
+mekanism.solarneutronactivator
+mekanism.combiner
+mekanism.purificationchamber
+mekanism.osmiumcompressor
+mekanism.chemicalinjectionchamber
+mekanism.precisionsawmill
+mekanism.enrichmentchamber
+mekanism.crusher
+mekanism.thermalevaporationplant
+bdew.jeibees.mutation.rootBees
+bdew.jeibees.produce.rootBees
+bdew.jeibees.mutation.rootTrees
+bdew.jeibees.produce.rootTrees
+bdew.jeibees.mutation.rootButterflies
+tcomplement:melter
+modularmachinery.preview
+modularmachinery.recipes.passive_astralfluid_collectormk4
+modularmachinery.recipes.passive_astralfluid_collectormk3
+modularmachinery.recipes.passive_astralfluid_collectormk6
+modularmachinery.recipes.passive_astralfluid_collectormk5
+modularmachinery.recipes.passive_astralfluid_collectormk2
+modularmachinery.recipes.passive_astralfluid_collectormk1
+modularmachinery.recipes.liquid_sun_collector
+modularmachinery.recipes.tnt_easy_bug
+threng.agg
+threng.purify
+threng.etch
+astralsorcery.lightwell
+astralsorcery.grindstone
+astralsorcery.infuser
+astralsorcery.lightTransmutation
+astralsorcery.altar.trait
+astralsorcery.altar.constellation
+astralsorcery.altar.attunement
+astralsorcery.altar.discovery
+environmentaltech.voidminer.botanic.t1
+environmentaltech.voidminer.botanic.t2
+environmentaltech.voidminer.botanic.t3
+environmentaltech.voidminer.botanic.t4
+environmentaltech.voidminer.botanic.t5
+environmentaltech.voidminer.botanic.t6
+environmentaltech.voidminer.ore.t1
+environmentaltech.voidminer.ore.t2
+environmentaltech.voidminer.ore.t3
+environmentaltech.voidminer.ore.t4
+environmentaltech.voidminer.ore.t5
+environmentaltech.voidminer.ore.t6
+environmentaltech.voidminer.resource.t1
+environmentaltech.voidminer.resource.t2
+environmentaltech.voidminer.resource.t3
+environmentaltech.voidminer.resource.t4
+environmentaltech.voidminer.resource.t5
+environmentaltech.voidminer.resource.t6
+integrateddynamicscompat:dryingBasin
+integrateddynamicscompat:squeezer
+integrateddynamicscompat:mechanicalDryingBasin
+integrateddynamicscompat:mechanicalSqueezer
+psi.trick
+DraconicEvolution.Fusion
+ftbquests.quests
+thermalexpansion.furnace
+thermalexpansion.furnace_food
+thermalexpansion.furnace_ore
+thermalexpansion.furnace_pyrolysis
+thermalexpansion.pulverizer
+thermalexpansion.pulverizer_petrotheum
+thermalexpansion.sawmill
+thermalexpansion.sawmill_tapper
+thermalexpansion.smelter
+thermalexpansion.smelter_pyrotheum
+thermalexpansion.insolator
+thermalexpansion.insolator_tree
+thermalexpansion.compactor
+thermalexpansion.compactor_mint
+thermalexpansion.compactor_gear
+thermalexpansion.crucible
+thermalexpansion.crucible_lava
+thermalexpansion.refinery
+thermalexpansion.refinery_fossil
+thermalexpansion.refinery_potion
+thermalexpansion.transposer_fill
+thermalexpansion.transposer_extract
+thermalexpansion.charger
+thermalexpansion.centrifuge
+thermalexpansion.centrifuge_mobs
+thermalexpansion.brewer
+thermalexpansion.enchanter
+thermalexpansion.precipitator
+thermalexpansion.extruder
+thermalexpansion.extruder_sedimentary
+thermalexpansion.steam
+thermalexpansion.magmatic
+thermalexpansion.compression
+thermalexpansion.reactant
+thermalexpansion.reactant_elemental
+thermalexpansion.enervation
+thermalexpansion.numismatic
+thermalexpansion.numismatic_gem
+thermalexpansion.factorizer_combine
+thermalexpansion.factorizer_split
+thermalexpansion.coolant
+GENDUSTRY_MUTAGEN_PRODUCER
+GENDUSTRY_PROTEIN_LIQUIFIER
+GENDUSTRY_DNA_LIQUIFIER
+GENDUSTRY_MUTATRON
+GENDUSTRY_SAMPLER
+GENDUSTRY_TRANSPOSER
+GENDUSTRY_IMPRINTER
+GENDUSTRY_REPLICATOR
+pe.worldtransmute
+pe.collector
+appliedenergistics2.condenser
+appliedenergistics2.inscriber
+jei.information
+zmaster587.AR.rollingMachine
+zmaster587.AR.lathe
+zmaster587.AR.precisionAssembler
+zmaster587.AR.sawMill
+zmaster587.AR.chemicalReactor
+zmaster587.AR.crystallizer
+zmaster587.AR.electrolyzer
+zmaster587.AR.arcFurnace
+zmaster587.AR.platePresser
+zmaster587.AR.centrifuge
+ic2.scrapbox
+macerator
+extractor
+compressor
+centrifuge
+blast_furnace
+ore_washing_plant
+block_cutter
+metal_former0
+metal_former1
+metal_former2
+electrolyzer
+canner_EnrichLiquid
+canner_BottleSolid
+solid_canner
+recycler
+AlloySmelter
+CombustionGenerator
+Enchanter
+SagMill
+GrindingBall
+SliceNSPlice
+SolarPanel
+SoulBinder
+StirlingGenerator
+EIOTank
+Vat
+EIOWC
+EIOWO
+ZombieGenerator
+EnderGenerator
+LavaGenerator
+extrautils2.blockPatterns
+extrautils2.terraformer
+extrautils2.resonator
+xu2_machine_extrautils2:furnace
+xu2_machine_extrautils2:crusher
+xu2_machine_extrautils2:enchanter
+xu2_machine_extrautils2:generator_survival
+xu2_machine_extrautils2:generator
+xu2_machine_extrautils2:generator_culinary
+xu2_machine_extrautils2:generator_lava
+xu2_machine_extrautils2:generator_redstone
+xu2_machine_extrautils2:generator_ender
+xu2_machine_extrautils2:generator_potion
+xu2_machine_extrautils2:generator_pink
+xu2_machine_extrautils2:generator_overclock
+xu2_machine_extrautils2:generator_tnt
+xu2_machine_extrautils2:generator_netherstar
+xu2_machine_extrautils2:generator_dragonsbreath
+xu2_machine_extrautils2:generator_ice
+xu2_machine_extrautils2:generator_death
+xu2_machine_extrautils2:generator_enchant
+xu2_machine_extrautils2:generator_slime
+nuclearcraft_manufactory
+nuclearcraft_isotope_separator
+nuclearcraft_decay_hastener
+nuclearcraft_fuel_reprocessor
+nuclearcraft_alloy_furnace
+nuclearcraft_infuser
+nuclearcraft_melter
+nuclearcraft_supercooler
+nuclearcraft_electrolyser
+nuclearcraft_irradiator
+nuclearcraft_ingot_former
+nuclearcraft_pressurizer
+nuclearcraft_chemical_reactor
+nuclearcraft_salt_mixer
+nuclearcraft_crystallizer
+nuclearcraft_dissolver
+nuclearcraft_extractor
+nuclearcraft_centrifuge
+nuclearcraft_rock_crusher
+nuclearcraft_collector
+nuclearcraft_active_cooler
+nuclearcraft_decay_generator
+nuclearcraft_fission
+nuclearcraft_fusion
+nuclearcraft_salt_fission
+nuclearcraft_coolant_heater
+nuclearcraft_heat_exchanger
+nuclearcraft_high_turbine
+nuclearcraft_condenser
+[SERVER_STARTED][SERVER][INFO] Http Request Received
+[SERVER_STARTED][SERVER][INFO] Connection : Upgrade
+[SERVER_STARTED][SERVER][INFO] Upgrade : websocket
+[SERVER_STARTED][SERVER][INFO] CrTWebSocketHandler added to the pipeline
+[SERVER_STARTED][SERVER][INFO] Opened Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] Handshaking....
+[SERVER_STARTED][SERVER][INFO] Req URI : /
+[SERVER_STARTED][SERVER][INFO] Constructed URL : ws://127.0.0.1:24532/
+[SERVER_STARTED][SERVER][INFO] Handshake is done
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [crafttweaker | recipeevent], [none]]
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
+[SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 8ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
 [SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
 [SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
 [SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\blocks.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\fluid.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\food.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\item.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\material.zs}
-[SERVER_STARTED][SERVER][INFO] [contenttweaker | SIDE_CLIENT]: Loading Script: {[3000:contenttweaker]: contenttweaker\item\oremat.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 27ms
-[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}
+[SERVER_STARTED][SERVER][INFO] This is a WebSocket frame
+[SERVER_STARTED][SERVER][INFO] Client Channel : [id: 0x74b58831, L:/127.0.0.1:24532 - R:/127.0.0.1:64951]
+[SERVER_STARTED][SERVER][INFO] TextWebSocketFrame Received : 
+[SERVER_STARTED][SERVER][INFO] Received a linting request, starting to lint.
+[SERVER_STARTED][SERVER][INFO] Loading scripts for loader with names [none]
 [SERVER_STARTED][SERVER][INFO] Ignoring script {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs} as current pack mode NormalLand is not in the scripts pack modes [chooseMode]
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[3000:crafttweaker]: crafttweaker\globalEvents\exu2machine.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[2500:crafttweaker]: crafttweaker\globalEvents\worldgeo.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[500:crafttweaker]: crafttweaker\utils\utilaiop.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: crafttweaker\chooseMode\EventChose.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: MineTweakerRecipeMaker.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-50:crafttweaker]: crafttweaker\NormalLand\MM\utilsreciper.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\AS.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\botania.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\cyclic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\extenedcrafting.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\IE.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\astralliquid_collector_array.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\liquid_sun_collector.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\mana_extractors.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\passive_astralf.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\MM\tntbug.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\modularcomponent.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\oredict.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\randomT.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\tic.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: crafttweaker\NormalLand\vanilla.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-100:crafttweaker]: template.zs}
-[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[-150:crafttweaker]: crafttweaker\globalEvents\worldcrafting.zs}
-[SERVER_STARTED][SERVER][INFO] Completed script loading in: 67ms
+[SERVER_STARTED][SERVER][INFO] Completed script loading in: 0ms
+[SERVER_STARTED][SERVER][INFO] errors = []
+[SERVER_STARTED][SERVER][INFO] jres = {"errors":[],"loadSuccessful":true,"messageType":"LintResponse"}
+[SERVER_STARTED][SERVER][INFO] {"messageType":"LintRequest"}

@@ -60,6 +60,7 @@
         "sboh2"//氢氧化锑
 
     ] as string[];
+    
     //流体颜色列表
     val fluidColor = [
         "FFF8DC",//TiCl4

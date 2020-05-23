@@ -7,6 +7,61 @@ item.contenttweaker.Trinitrotoluene.name=Trinitrotoluene
 item.contenttweaker.astral_essence.name=Astral Essence
 
 fluid.titaniumTetrachloride.name=Titanium Tetrachloride
+fluid.liquid_sunshiner.name=Liquid Sunshine
+fluid.void_liquid.name=Void Liquid
+fluid.nature_gas.name=Nature Gas
+fluid.lpg.name=LPG
+fluid.lng.name=LNG
+fluid.h2s.name=Hydrogen Sulfide
+fluid.hydrozized_oil.name=Desulfurized petroleum
+fluid.processed_oil.name=Processed oil(1/2)
+fluid.naptha.name=Naptha
+fluid.cracking_gas.name=Cracking Gas
+fluid.diesel_oil.name=Diesel Oil
+fluid.mineral_oil.name=Mineral Oil
+fluid.ch4.name=Methane
+fluid.c2h6.name=Ethane
+fluid.c3h8.name=Propane
+fluid.c4h10.name=Butane
+fluid.c2h4.name=Ethene
+fluid.c3h6.name=Propylene
+fluid.c4h8.name=Butene
+fluid.syngas.name=Syngas
+fluid.pyrolysis_gasoline.name=Pyrolysis Gasoline
+fluid.co.name=Carbon Monoxide
+fluid.phosgene.name=Phosgene
+fluid.c6h6.name=Benzene
+fluid.c7h9.name=Toluene
+fluid.c7h6n2o4.name=Dinitrotoluene
+fluid.k2s2o8.name=Potassium Persulfate
+fluid.ch3o.name=Formaldehyde
+fluid.ech.name=ECH
+fluid.tdi.name=TDI
+fluid.acetone_phenol.name=Acetone-phenol mixture
+fluid.acetone_bisphenola.name=Acetone-bisphenolA mixture 
+fluid.phenol.name=Phenol
+fluid.bisphenola.name=BisphenolA
+fluid.carbonate.name=Carbonate
+fluid.cahpo4.name=Calcium Hydrophosphate
+fluid.nh4no3.name=Ammonium nitrate
+fluid.hcn.name=Hydrocyanic acid
+fluid.naoh.name=Sodium Hydroxide
+fluid.acetone_cyanohydrin.name=Acetone Cyanohydrin
+fluid.ch3oh.name=Methanol
+fluid.pmm.name=PMM
+fluid.al2o3.name=Alumina
+fluid.ccl4.name=Carbon Tetrachloride
+fluid.nh4oh.name=Ammonia
+fluid.na2co3.name=Sodium Carbonate
+fluid.h2wo4.name=Tungstic Acid
+fluid.cacl2.name=Calcium Chloride
+fluid.sboh2.name=Antimony Hydroxide
+
+
+
+
+
+
 
 tile.contenttweaker.gt_machine_0.name=Bronze Machine Block
 tile.contenttweaker.gt_machine_1.name=Steel Machine Block
