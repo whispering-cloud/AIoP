@@ -13,7 +13,7 @@
     for i in itemName {
         var fooder = VanillaFactory.createItemFood(i, 19);
         fooder.saturation = 0.8;
-        item.onItemFoodEaten = function(stack, world, player) {
+        fooder.onItemFoodEaten = function(stack, world, player) {
             if (!world.isRemote()) {
                 player.addPotionEffect(<potion:minecraft:night_vision>.makePotionEffect(1200, 1));
             }

@@ -10,7 +10,7 @@ import mods.jei.JEI;
     for i in catehide {
         mods.jei.JEI.hideCategory(i);
     }
-    mdosmods.jei.JEI.hide(<appliedenergistics2:facade:*>);
+    mods.jei.JEI.hide(<appliedenergistics2:facade>);
 
 
     print("Initialized creative_tabs.zs");

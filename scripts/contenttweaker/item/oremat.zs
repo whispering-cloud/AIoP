@@ -9,10 +9,37 @@
     import mods.contenttweaker.RegisterMaterialPart;
     import mods.contenttweaker.PartType; 
 
-
-	var metal_list_name = ["monazite","galena","chromite","ferronickel","zinc","vanadinite","pitchblende","iridosmine","ilmenite",/*metal->*/"scheelite","coppers","irons","wolframite","bismuthinite","stibnite","magnesite","cassiterite","gummite","bauxite","lithore","uraninite"] as string[];
-	var part_names = ["crush_ore","grinded_ore","sieved_ore","washed_ore","refined_one_ore","wet_ore","concentrated_ore","filtered_ore","refined_ore"] as string[];
-    var ore_color = [""];
+//schee metallurgy
+	// var metal_list_name = ["monazite","galena","chromite",
+    // "ferronickel","zinc","vanadinite","pitchblende","iridosmine",
+    // "ilmenite","scheelite","coppers","irons","wolframite","bismuthinite",
+    // "stibnite","magnesite","cassiterite","gummite","bauxite","lithore",
+    // "uraninite"] as string[];
+	var metallister as string[string] = {
+        "monazite" : "",
+        "galena" : "",
+        "chromite" : "",
+        "ferronickel" : "",
+        "zinc" : "",
+        "vanadinite" : "",
+        "pitchblende" : "",
+        "iridosmine" : "",
+        "ilmenite" : "",
+        "scheelite" : "",
+        "coppers" : "",
+        "irons" : "",
+        "wolframite" : "",
+        "bismuthinite" : "",
+        "stibnite" : "",
+        "magnesite" : "",
+        "cassiterite" : "",
+        "gummite" : "",
+        "bauxite" : "",
+        "lithore" : "",
+        "uraninite" : ""
+    };
+    var part_names = ["crush_ore","grinded_ore","sieved_ore","washed_ore","refined_one_ore","wet_ore","concentrated_ore","filtered_ore","refined_ore"] as string[];
+    // var ore_color = [""];
 
     val CurshOre=MaterialSystem.createPartType("crush_ore",function(materialPart){
         //ways of crush ore
@@ -41,11 +68,11 @@
     val refOre=MaterialSystem.createPartType("refined_ore",function(materialPart){
         //ways of dry ore
     });
-	for i, namei in metal_list_name {
-        var metar = MaterialSystem.getMaterialBuilder().setName(namei).setColor(Color.fromHex("CC3299").getIntColor()).build();
+	for keyer in metallister {
+        var metar = MaterialSystem.getMaterialBuilder().setName(keyer).setColor(Color.fromHex("CC3299").getIntColor()).build();
 		metar.registerParts(part_names);
 		var oreData = metar.registerPart("ore").getData();
-		oreData.addDataValue("hardness", "5");
+		oreData.addDataValue("hardness", "3");
 		oreData.addDataValue("resistance", "30");
 		oreData.addDataValue("harvestTool", "pickaxe");
 		oreData.addDataValue("harvestLevel", "1");
