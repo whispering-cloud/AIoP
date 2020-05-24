@@ -1,4 +1,32 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "thermalfoundation:coin|64",
+      "emc": 100
+    },
+    {
+      "item": "thermalfoundation:coin|66",
+      "emc": 500
+    },
+    {
+      "item": "thermalfoundation:coin|69",
+      "emc": 2000
+    },
+    {
+      "item": "thermalfoundation:coin|1",
+      "emc": 10000
+    },
+    {
+      "item": "thermalfoundation:coin|70",
+      "emc": 50000
+    },
+    {
+      "item": "jaopca:item_coinastralstarmetal|0",
+      "emc": 200000
+    },
+    {
+      "item": "jaopca:item_coindraconium|0",
+      "emc": 1000000
+    }
+  ]
 }

@@ -105,3 +105,10 @@ tile.contenttweaker.pure_gyk.name=Pure GAIA Block
 tile.contenttweaker.dense_marble.name=Dense Marble
 
 
+message.contenttweaker.coin1.name=[AIoP] 1 Ascr
+message.contenttweaker.coin5.name=[AIoP] 5 Ascr
+message.contenttweaker.coin20.name=[AIoP] 20 Ascr
+message.contenttweaker.coin100.name=[AIoP] 100 Ascr
+message.contenttweaker.coin500.name=[AIoP] 500 Ascr
+message.contenttweaker.coin2000.name=[AIoP] 2000 Ascr
+message.contenttweaker.coin10000.name=[AIoP] 10000 Ascr
