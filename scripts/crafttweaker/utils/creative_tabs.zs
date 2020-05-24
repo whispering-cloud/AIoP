@@ -6,7 +6,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
     print("Initializing creative_tabs.zs");
-    val catehide = ["thermalexpansion.brewer","thermalexpansion.centrifuge_mobs","thermalexpansion.refinery_potion","thermalexpansion.refinery_fossil","Avatitia.Compressor","Avatitia.Extreme","actuallyadditions.coffee","jeresources.enchantment"] as string[];
+    val catehide = ["thermalexpansion.brewer","thermalexpansion.centrifuge_mobs","thermalexpansion.refinery_potion","thermalexpansion.refinery_fossil","Avatitia.Compressor","Avatitia.Extreme","actuallyadditions.coffee","jeresources.enchantment","Painter"] as string[];
     for i in catehide {
         mods.jei.JEI.hideCategory(i);
     }
