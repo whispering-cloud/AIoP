@@ -11,19 +11,14 @@
     import mods.contenttweaker.RegisterMaterialPart;
 
 //schee metallurgy
-	// var metal_list_name = ["monazite","galena","chromite",
-    // "ferronickel","zinc","vanadinite","pitchblende","iridosmine",
-    // "ilmenite","scheelite","coppers","irons","wolframite","bismuthinite",
-    // "stibnite","magnesite","cassiterite","gummite","bauxite","lithore",
-    // "uraninite"] as string[];
 	var metallister as string[string] = {
-        "monazite" : "",
-        "galena" : "",
-        "chromite" : "",
-        "ferronickel" : "",
-        "zinc" : "",
-        "vanadinite" : "",
-        "pitchblende" : "",
+        "monazite" : "",//独居石
+        "galena" : "",//方铅矿
+        "chromite" : "",//铬铁矿
+        "ferronickel" : "",//镍黄铁
+        "zinc" : "",//锌
+        "vanadinite" : "",//钒铅矿
+        "pitchblende" : "",//沥青铀矿
         "iridosmine" : "",
         "ilmenite" : "",
         "scheelite" : "",

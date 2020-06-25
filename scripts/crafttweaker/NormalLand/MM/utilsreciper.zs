@@ -51,14 +51,14 @@ import mods.astralsorcery.Altar;
             rp2.addItemOutput(outputer);
         }
         if (3>=levelat) {
-            var rp3 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk2", "auto_altarmk3",100).addFluidInput(<fluid:astralfmk4>*80);
+            var rp3 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk3", "auto_altarmk3",100).addFluidInput(<fluid:astralfmk4>*80);
             for i in inputer {
                 rp3.addItemInput(i);
             }
             rp3.addItemOutput(outputer);
         }
         if (4>=levelat) {
-            var rp4 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk2", "auto_altarmk4",50).addFluidInput(<fluid:astralfmk2>*20);
+            var rp4 = mods.modularmachinery.RecipeBuilder.newBuilder(recname ~ "auto_altarmk4", "auto_altarmk4",50).addFluidInput(<fluid:astralfmk2>*20);
             for i in inputer {
                 rp4.addItemInput(i);
             }
